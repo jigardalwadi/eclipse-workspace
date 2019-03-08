@@ -1,0 +1,18 @@
+package org.learn.java;
+import java.math.*;
+
+public class FindRoot {
+
+	 public static void findRootInbuilt(double numberToRoot) {
+		 Math.sqrt(numberToRoot);
+			 
+	 }
+	
+	public static void main(String[] args) {
+	
+		//using default method
+		findRootInbuilt(5);
+
+	}
+
+}

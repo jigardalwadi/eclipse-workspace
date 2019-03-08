@@ -1,0 +1,69 @@
+import java.util.Arrays;
+
+public class MergeSort {
+	public void sort(int[] arr, int l, int r) {
+		if(l<r) {
+		int m = (l+r)/2;
+		sort(arr,l,m);
+		sort(arr,m+1,r);
+		merge(arr,l,m,r);
+		}
+	}
+	
+	public void merge(int[] arr, int l, int m, int r) {
+		int arr1length = m-1+1;
+		int arr2length = r-m;
+		
+		int arr1[] =  Arrays.copyOfRange(arr, l, m-1);
+		int arr2[] = Arrays.copyOfRange(arr, m, r);
+		
+		int i=0;
+		int j = 0;
+		int k = l;
+		// merge this divided array while sorting
+		while(i<arr1length && j < arr2length) {
+			if(arr1[i] <= arr2[j]) {
+				arr[k]=arr1[i];
+				i++;
+			}
+			else {
+				arr[k]=arr2[j];
+				j++;
+			}
+			k++;
+		}
+		while(i<arr1length) {
+			arr[k]=arr1[i];
+			i++;
+			k++;
+		}
+		while(j<arr2length){
+			arr[k]=arr2[j];
+			j++;
+			k++;
+		}
+		
+	}
+
+
+
+
+
+	public static void printarray(int[] arr) {
+		for(int i =0; i< arr.length;i++) {
+			System.out.print(arr[i] + " ");
+		}
+	}
+	public static void main(String[] args) {
+		int[] arr = {6,40,15,21,2};
+		//static method so no need of object
+		printarray(arr);
+		
+		MergeSort mg = new MergeSort();
+		mg.sort(arr,0,arr.length-1);
+		
+		System.out.println("array after sorting");
+		printarray(arr);
+	}
+
+}

@@ -1,0 +1,17 @@
+package org.learn.java;
+
+public class FindRoot {
+
+	 public static int findRootInbuilt(double numberToRoot) {
+		return (int) Math.sqrt(numberToRoot);
+			 
+	 }
+	
+	public static void main(String[] args) {
+	
+		 double y = 25;
+		 System.out.println("Math.sqrt(" + y + ")=" + Math.sqrt(y));
+
+	}
+
+}

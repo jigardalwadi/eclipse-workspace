@@ -1,0 +1,119 @@
+import java.util.LinkedList;
+import java.util.PriorityQueue;
+import java.util.Scanner;
+import java.util.Stack;
+
+public class Anytime1 {
+       
+        public static void main(String[] args) 
+        {
+        		
+        /*	Scanner s=new Scanner(System.in);
+            
+            int p1d[]=new int[9];
+            System.out.println("enter elements from 0 to 8 in any order");
+            for(int i=0;i<9;i++){//for reading array
+                p1d[i]=s.nextInt();
+            }
+            for(int i: p1d){ //for printing array
+                System.out.println(i);
+            }
+          */
+        	int[] p1d = { 1,0,2,3,4,5,6,7,8};
+        		
+                int hueristic = 2;
+                AStarAlgorithm1 start = new AStarAlgorithm1(p1d, hueristic, 0);
+                int[] win = { 0, 1, 2, 3, 4, 5, 6, 7, 8};
+                                                            
+                AStarAlgorithm1 goal = new AStarAlgorithm1(win, hueristic, 0);
+                astar(start, goal);
+        }
+        
+        
+        
+        public static void astar(AStarAlgorithm1 start, AStarAlgorithm1 goal)
+        {
+                if(start.inversions() % 2 == 1)
+                {
+                        System.out.println("Unsolvable");
+                        return;
+                }
+
+                LinkedList<AStarAlgorithm1> closed = new LinkedList<AStarAlgorithm1>();
+                PriorityQueue<AStarAlgorithm1> open = new PriorityQueue<AStarAlgorithm1>();
+
+                open.add(start);
+
+              // int open = open.size();
+               for(;open.size() > 0; )
+                //while(open.size() > 0)
+                {
+//               a := the node in open having the lowest f_score[] value
+                        AStarAlgorithm1 a = open.peek();
+//               if a = goal
+                        if(a.mapEquals(goal))
+                        {
+//                   return reconstruct_path(came_from, came_from[goal])
+                                 Stack<AStarAlgorithm1> toDisplay = reconstruct(a);
+                                 System.out.println("Printing solution... ");
+                                 System.out.println(start.toString());
+                                 print(toDisplay);
+                                 return;
+                                                               
+                        }
+//               remove a from open
+//               add a to closed
+                        closed.add(open.poll());
+                        LinkedList <AStarAlgorithm1> neighbor = a.getChildren();
+//               foreach b in neighbor_nodes(a)                
+                        for(;neighbor.size() > 0;)
+                        {
+                                AStarAlgorithm1 b = neighbor.removeFirst();
+//                   if b in closed
+                                if(closed.contains(b)){
+//                       continue
+                                        continue;
+                                }
+//                   tentative_g_score := g_score[a] + dist_between(a,b)
+//      
+//                   if b not in open
+                                if(!closed.contains(b)){
+//                       add b to open
+                                        open.add(b);
+//                      
+                                }
+//                 
+                        }
+//               
+                }
+        }
+
+        public static void print(Stack<AStarAlgorithm1> a)
+        {
+        	
+        	while(!a.isEmpty())
+                {
+                        AStarAlgorithm1 temp = a.pop();
+                        System.out.println(temp.toString());
+                        //System.out.println(gn);
+                }
+        }
+
+        public static Stack<AStarAlgorithm1> reconstruct(AStarAlgorithm1 winner)
+        {
+                Stack<AStarAlgorithm1> correctOutput = new Stack<AStarAlgorithm1>();
+
+                while(winner.getParent() != null)
+                {
+                correctOutput.add(winner);
+                winner = winner.getParent();
+                }
+
+                return correctOutput;
+        }
+
+        
+
+}
+
+

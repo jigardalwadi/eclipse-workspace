@@ -1,0 +1,2 @@
+Hello world filr
+This is created by buffered writer

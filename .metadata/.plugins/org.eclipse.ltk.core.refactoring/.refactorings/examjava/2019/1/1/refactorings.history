@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;examjava/src/main/java/org/learn/java/general programming&apos; to &apos;general&apos;" description="Rename resource &apos;general programming&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/org/learn/java/general programming" name="general" stamp="1546637268218" updateReferences="true"/>
+</session>

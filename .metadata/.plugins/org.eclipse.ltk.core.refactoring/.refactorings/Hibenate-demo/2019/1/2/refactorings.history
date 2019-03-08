@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Hibenate-demo/src/main/java/JDBCApplication&apos; to &apos;HibernateApplication&apos;" description="Rename resource &apos;JDBCApplication&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/JDBCApplication" name="HibernateApplication" stamp="1546884699127" updateReferences="true"/>
+</session>

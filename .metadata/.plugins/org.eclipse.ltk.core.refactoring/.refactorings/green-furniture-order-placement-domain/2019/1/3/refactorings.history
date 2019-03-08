@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;green-furniture-order-placement-domain/src/main/resources/liquibase/greenfurniturechangelog/201901180128_modify_table_jobposting2.xml&apos; to &apos;201901180212_modify_table_jobposting.xml&apos;" description="Rename resource &apos;201901180128_modify_table_jobposting2.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/liquibase/greenfurniturechangelog/201901180128_modify_table_jobposting2.xml" name="201901180212_modify_table_jobposting.xml" stamp="1547838822630" updateReferences="true"/>
+</session>

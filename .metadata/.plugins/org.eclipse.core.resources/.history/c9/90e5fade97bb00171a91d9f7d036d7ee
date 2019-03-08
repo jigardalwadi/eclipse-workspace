@@ -1,0 +1,113 @@
+import java.util.*;
+
+public class Astar1 {
+       
+        public static void main(String[] args) 
+        {
+        		
+        	Scanner s=new Scanner(System.in);
+            
+            int p1d[]=new int[9];
+            System.out.println("enter elements from 0 to 8 in any order");
+            for(int i=0;i<9;i++){//for reading array
+                p1d[i]=s.nextInt();
+            }
+            for(int i: p1d){ //for printing array
+                System.out.println(i);
+            }
+
+                int hueristic = 2;
+                EightPuzzele start = new EightPuzzele(p1d, hueristic, 0);
+                int[] win = { 0, 1, 2, 3, 4, 5, 6, 7, 8};
+                                                            
+                EightPuzzele goal = new EightPuzzele(win, hueristic, 0);
+                astar(start, goal);
+        }
+        
+        
+        
+
+        public static void astar(EightPuzzele start, EightPuzzele goal)
+        {
+                if(start.inversions() % 2 == 1)
+                {
+                        System.out.println("Unsolvable");
+                        return;
+                }
+
+                LinkedList<EightPuzzele> closed = new LinkedList<EightPuzzele>();
+                PriorityQueue<EightPuzzele> open = new PriorityQueue<EightPuzzele>();
+
+                open.add(start);
+
+              // int open = open.size();
+               for(;open.size() > 0; )
+                //while(open.size() > 0)
+                {
+//               a := the node in open having the lowest f_score[] value
+                        EightPuzzele a = open.peek();
+//               if a = goal
+                        if(a.mapEquals(goal))
+                        {
+//                   return reconstruct_path(came_from, came_from[goal])
+                                 Stack<EightPuzzele> toDisplay = reconstruct(a);
+                                 System.out.println("Printing solution... ");
+                                 System.out.println(start.toString());
+                                 print(toDisplay);
+                                 return;
+
+                        }
+//               remove a from open
+//               add a to closed
+                        closed.add(open.poll());
+                        LinkedList <EightPuzzele> neighbor = a.getChild();
+//               foreach b in neighbor_nodes(a)                
+                        for(;neighbor.size() > 0;)
+                        {
+                                EightPuzzele b = neighbor.removeFirst();
+//                   if b in closed
+                                if(closed.contains(b)){
+//                       continue
+                                        continue;
+                                }
+//                   tentative_g_score := g_score[a] + dist_between(a,b)
+//      
+//                   if b not in open
+                                if(!closed.contains(b)){
+//                       add b to open
+                                        open.add(b);
+//                      
+                                }
+//                 
+                        }
+//               
+                }
+        }
+
+        public static void print(Stack<EightPuzzele> a)
+        {
+                while(!a.isEmpty())
+                {
+                        EightPuzzele temp = a.pop();
+                        System.out.println(temp.toString());
+                }
+        }
+
+        public static Stack<EightPuzzele> reconstruct(EightPuzzele winner)
+        {
+                Stack<EightPuzzele> correctOutput = new Stack<EightPuzzele>();
+
+                while(winner.getParent() != null)
+                {
+                correctOutput.add(winner);
+                winner = winner.getParent();
+                }
+
+                return correctOutput;
+        }
+
+        
+
+}
+
+

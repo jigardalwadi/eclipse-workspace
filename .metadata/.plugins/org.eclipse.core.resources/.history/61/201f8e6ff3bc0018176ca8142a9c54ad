@@ -1,0 +1,15 @@
+package Linkedlist;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		intlinkedlist list = new intlinkedlist(2);
+		
+		list.insert(5);
+		list.insert(4);
+		
+		list.printall();
+	}
+
+}

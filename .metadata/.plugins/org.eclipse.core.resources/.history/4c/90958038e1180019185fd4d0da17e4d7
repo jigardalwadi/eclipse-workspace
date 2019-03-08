@@ -1,0 +1,5 @@
+package com.jigar.configuration;
+
+public class AppConfig {
+
+}

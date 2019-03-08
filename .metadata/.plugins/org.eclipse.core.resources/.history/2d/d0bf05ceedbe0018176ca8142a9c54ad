@@ -1,0 +1,23 @@
+package Linkedlist;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		intlinkedlist list = new intlinkedlist();
+		intlinkedlist list1 = new intlinkedlist();
+		list.insert(5);
+		list.insert(4);
+		list.insert(3);
+		list.printall();
+		
+		list1.insert(6);
+		list1.insert(7);
+		list1.insert(1);
+		list1.printall();
+		//intlinkedlist list11 = new intlinkedlist();
+		
+		new sum(list, list1);
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;spring-boot-rest-api-demo/src/test/java/org/google/java/BookRestContoller.java&apos; to &apos;BookRestContollerTest.java&apos;" description="Rename resource &apos;BookRestContoller.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/test/java/org/google/java/BookRestContoller.java" name="BookRestContollerTest.java" stamp="1548355936418" updateReferences="true"/>
+</session>

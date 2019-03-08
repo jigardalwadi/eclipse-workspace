@@ -1,0 +1,8 @@
+CREATE DEFINER=`root`@`localhost` PROCEDURE `new_procedure2`(
+p_id INT,
+P_name VARCHAR(100)
+)
+BEGIN
+INSERT INTO EMPLOYEE (ID, NAME) VALUES(p_id, p_name);
+COMMIT;
+END

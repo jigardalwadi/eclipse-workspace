@@ -1,0 +1,9 @@
+package Linkedlist;
+
+public class sum {
+
+	public sum() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

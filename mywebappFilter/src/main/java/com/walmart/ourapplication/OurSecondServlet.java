@@ -1,0 +1,40 @@
+package com.walmart.ourapplication;
+
+import java.io.IOException;
+
+import javax.servlet.Servlet;
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+import javax.servlet.annotation.WebServlet;
+
+@WebServlet("/nowelcome")
+public class OurSecondServlet implements Servlet {
+
+	public void destroy() {
+		System.out.println("Destroy is called");
+	}
+
+	public ServletConfig getServletConfig() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getServletInfo() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void init(ServletConfig arg0) throws ServletException {
+		System.out.println("This is inint method being called");
+	}
+
+	public void service(ServletRequest arg0, ServletResponse resp) throws ServletException, IOException {
+		System.out.println("Service method being called");
+		String outmsg = "Hello from 2";
+		resp.getOutputStream().write(outmsg.getBytes());
+		
+	}
+	
+}

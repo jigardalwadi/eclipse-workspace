@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;JDBC-Advanced/src/main/java/JDBCApplication/Domain&apos; to &apos;domain&apos;" description="Rename resource &apos;Domain&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/JDBCApplication/Domain" name="domain" stamp="1546534628243" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;JDBC-Advanced/src/main/java/JDBCApplication/DAO&apos; to &apos;dao&apos;" description="Rename resource &apos;DAO&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/JDBCApplication/DAO" name="dao" stamp="1546536665370" updateReferences="true"/>
+</session>

@@ -1,0 +1,32 @@
+package Linkedlist;
+
+public class intlinkedlist {
+	private Node head;
+	public intlinkedlist(int item) {
+		head = new Node();
+		head.value = item;
+		head.link = null;
+	}
+	class Node{
+		private int value;
+		private Node link;	
+	}
+	
+	public boolean insert(int item) {
+		Node n = new Node();
+		n.value = item;
+		n.link = head;
+		head = n;
+		return true;
+	}
+	
+	public void printall() {
+		Node z = head;
+		while(z != null) {
+			System.out.println(z.value);
+			z = z.link;
+		}
+		
+	}
+	
+}

@@ -1,0 +1,1280 @@
+2019-01-18 13:03:03,132 DEBUG [localhost-startStop-1] logging: Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2019-01-18 13:03:04,139 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration boolean -> org.hibernate.type.BooleanType@205b31ca
+2019-01-18 13:03:04,139 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration boolean -> org.hibernate.type.BooleanType@205b31ca
+2019-01-18 13:03:04,139 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@205b31ca
+2019-01-18 13:03:04,142 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@1b769513
+2019-01-18 13:03:04,148 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration true_false -> org.hibernate.type.TrueFalseType@75396533
+2019-01-18 13:03:04,149 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration yes_no -> org.hibernate.type.YesNoType@5ee94bfa
+2019-01-18 13:03:04,152 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration byte -> org.hibernate.type.ByteType@15aa215e
+2019-01-18 13:03:04,153 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration byte -> org.hibernate.type.ByteType@15aa215e
+2019-01-18 13:03:04,153 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@15aa215e
+2019-01-18 13:03:04,155 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration character -> org.hibernate.type.CharacterType@274f2453
+2019-01-18 13:03:04,155 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration char -> org.hibernate.type.CharacterType@274f2453
+2019-01-18 13:03:04,155 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@274f2453
+2019-01-18 13:03:04,159 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration short -> org.hibernate.type.ShortType@6b49abf6
+2019-01-18 13:03:04,159 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration short -> org.hibernate.type.ShortType@6b49abf6
+2019-01-18 13:03:04,160 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.lang.Short -> org.hibernate.type.ShortType@6b49abf6
+2019-01-18 13:03:04,163 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration integer -> org.hibernate.type.IntegerType@2f09618d
+2019-01-18 13:03:04,164 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration int -> org.hibernate.type.IntegerType@2f09618d
+2019-01-18 13:03:04,164 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@2f09618d
+2019-01-18 13:03:04,168 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration long -> org.hibernate.type.LongType@1d4fe669
+2019-01-18 13:03:04,169 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration long -> org.hibernate.type.LongType@1d4fe669
+2019-01-18 13:03:04,177 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.lang.Long -> org.hibernate.type.LongType@1d4fe669
+2019-01-18 13:03:04,182 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration float -> org.hibernate.type.FloatType@6c572aeb
+2019-01-18 13:03:04,183 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration float -> org.hibernate.type.FloatType@6c572aeb
+2019-01-18 13:03:04,184 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.lang.Float -> org.hibernate.type.FloatType@6c572aeb
+2019-01-18 13:03:04,194 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration double -> org.hibernate.type.DoubleType@4f50ac26
+2019-01-18 13:03:04,195 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration double -> org.hibernate.type.DoubleType@4f50ac26
+2019-01-18 13:03:04,202 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@4f50ac26
+2019-01-18 13:03:04,212 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@6cc0c6b
+2019-01-18 13:03:04,213 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@6cc0c6b
+2019-01-18 13:03:04,219 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration big_integer -> org.hibernate.type.BigIntegerType@2ec642b4
+2019-01-18 13:03:04,220 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@2ec642b4
+2019-01-18 13:03:04,226 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration string -> org.hibernate.type.StringType@15ba575a
+2019-01-18 13:03:04,228 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.lang.String -> org.hibernate.type.StringType@15ba575a
+2019-01-18 13:03:04,239 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration nstring -> org.hibernate.type.StringNVarcharType@3064a318
+2019-01-18 13:03:04,242 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@6c9debf
+2019-01-18 13:03:04,245 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration url -> org.hibernate.type.UrlType@1f47ad0d
+2019-01-18 13:03:04,253 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.net.URL -> org.hibernate.type.UrlType@1f47ad0d
+2019-01-18 13:03:04,258 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration Duration -> org.hibernate.type.DurationType@414b989
+2019-01-18 13:03:04,262 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.time.Duration -> org.hibernate.type.DurationType@414b989
+2019-01-18 13:03:04,275 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration Instant -> org.hibernate.type.InstantType@4308f
+2019-01-18 13:03:04,276 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.time.Instant -> org.hibernate.type.InstantType@4308f
+2019-01-18 13:03:04,285 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@6454a109
+2019-01-18 13:03:04,292 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@6454a109
+2019-01-18 13:03:04,298 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration LocalDate -> org.hibernate.type.LocalDateType@4e3b48bd
+2019-01-18 13:03:04,302 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@4e3b48bd
+2019-01-18 13:03:04,313 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@70626cda
+2019-01-18 13:03:04,316 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@70626cda
+2019-01-18 13:03:04,319 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@4fae19d9
+2019-01-18 13:03:04,323 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@4fae19d9
+2019-01-18 13:03:04,327 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@6b9e3df4
+2019-01-18 13:03:04,327 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@6b9e3df4
+2019-01-18 13:03:04,339 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@711f3eca
+2019-01-18 13:03:04,339 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@711f3eca
+2019-01-18 13:03:04,343 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration date -> org.hibernate.type.DateType@625ac450
+2019-01-18 13:03:04,352 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.sql.Date -> org.hibernate.type.DateType@625ac450
+2019-01-18 13:03:04,356 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration time -> org.hibernate.type.TimeType@5935b5d6
+2019-01-18 13:03:04,357 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.sql.Time -> org.hibernate.type.TimeType@5935b5d6
+2019-01-18 13:03:04,364 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration timestamp -> org.hibernate.type.TimestampType@2a346b32
+2019-01-18 13:03:04,365 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@2a346b32
+2019-01-18 13:03:04,365 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.util.Date -> org.hibernate.type.TimestampType@2a346b32
+2019-01-18 13:03:04,373 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@1c614c09
+2019-01-18 13:03:04,377 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration calendar -> org.hibernate.type.CalendarType@5c6062d4
+2019-01-18 13:03:04,378 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@5c6062d4
+2019-01-18 13:03:04,384 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@5c6062d4
+2019-01-18 13:03:04,388 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@670eb86f
+2019-01-18 13:03:04,394 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration locale -> org.hibernate.type.LocaleType@4879cd50
+2019-01-18 13:03:04,397 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@4879cd50
+2019-01-18 13:03:04,400 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration currency -> org.hibernate.type.CurrencyType@6380fc37
+2019-01-18 13:03:04,404 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@6380fc37
+2019-01-18 13:03:04,407 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration timezone -> org.hibernate.type.TimeZoneType@4b5feb24
+2019-01-18 13:03:04,407 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@4b5feb24
+2019-01-18 13:03:04,409 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration class -> org.hibernate.type.ClassType@5893c8ed
+2019-01-18 13:03:04,416 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.lang.Class -> org.hibernate.type.ClassType@5893c8ed
+2019-01-18 13:03:04,421 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@21c5407a
+2019-01-18 13:03:04,422 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@21c5407a
+2019-01-18 13:03:04,425 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@43d86574
+2019-01-18 13:03:04,430 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration binary -> org.hibernate.type.BinaryType@31ebe6d4
+2019-01-18 13:03:04,435 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration byte[] -> org.hibernate.type.BinaryType@31ebe6d4
+2019-01-18 13:03:04,436 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration [B -> org.hibernate.type.BinaryType@31ebe6d4
+2019-01-18 13:03:04,439 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@46ea3d40
+2019-01-18 13:03:04,439 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@46ea3d40
+2019-01-18 13:03:04,448 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@46ea3d40
+2019-01-18 13:03:04,452 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration row_version -> org.hibernate.type.RowVersionType@7fff8caf
+2019-01-18 13:03:04,455 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration image -> org.hibernate.type.ImageType@1f2146d
+2019-01-18 13:03:04,459 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration characters -> org.hibernate.type.CharArrayType@3a6cfffe
+2019-01-18 13:03:04,461 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration char[] -> org.hibernate.type.CharArrayType@3a6cfffe
+2019-01-18 13:03:04,468 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration [C -> org.hibernate.type.CharArrayType@3a6cfffe
+2019-01-18 13:03:04,475 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@4c794f07
+2019-01-18 13:03:04,475 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@4c794f07
+2019-01-18 13:03:04,482 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@4c794f07
+2019-01-18 13:03:04,485 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration text -> org.hibernate.type.TextType@5bb8a4b8
+2019-01-18 13:03:04,487 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration ntext -> org.hibernate.type.NTextType@680be89
+2019-01-18 13:03:04,501 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration blob -> org.hibernate.type.BlobType@54bbb9b4
+2019-01-18 13:03:04,502 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@54bbb9b4
+2019-01-18 13:03:04,505 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@620a928b
+2019-01-18 13:03:04,521 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration clob -> org.hibernate.type.ClobType@3517e38d
+2019-01-18 13:03:04,522 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@3517e38d
+2019-01-18 13:03:04,529 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration nclob -> org.hibernate.type.NClobType@2c7b61b5
+2019-01-18 13:03:04,530 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@2c7b61b5
+2019-01-18 13:03:04,536 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@4c39f11c
+2019-01-18 13:03:04,537 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@2b07dae8
+2019-01-18 13:03:04,540 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration serializable -> org.hibernate.type.SerializableType@485f6dc6
+2019-01-18 13:03:04,551 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration object -> org.hibernate.type.ObjectType@76d1bab3
+2019-01-18 13:03:04,551 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@76d1bab3
+2019-01-18 13:03:04,553 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@4f9d6f81
+2019-01-18 13:03:04,558 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@346240e3
+2019-01-18 13:03:04,561 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@26b16c24
+2019-01-18 13:03:04,573 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@13de7886
+2019-01-18 13:03:04,575 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@379bec1b
+2019-01-18 13:03:04,575 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@1158d753
+2019-01-18 13:03:04,584 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@3ca55910
+2019-01-18 13:03:04,586 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@5cdf1c4a
+2019-01-18 13:03:04,750 DEBUG [localhost-startStop-1] BasicTypeRegistry: Adding type registration org.hibernate.envers.internal.entities.RevisionTypeType -> org.hibernate.type.CustomType@41f09bd0
+2019-01-18 13:03:09,459 DEBUG [localhost-startStop-1] PropertySourcedRequestMappingHandlerMapping: initialising the handler methods
+2019-01-18 13:03:09,462 INFO  [localhost-startStop-1] PropertySourcedRequestMappingHandlerMapping: Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-18 13:03:09,899 INFO  [localhost-startStop-1] DocumentationPluginsBootstrapper: Context refreshed
+2019-01-18 13:03:09,957 INFO  [localhost-startStop-1] DocumentationPluginsBootstrapper: Found 1 custom documentation plugin(s)
+2019-01-18 13:03:10,042 INFO  [localhost-startStop-1] ApiListingReferenceScanner: Scanning for api listing references
+2019-01-18 13:03:10,066 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Ljava/lang/Object;
+2019-01-18 13:03:10,068 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |changePassword|
+2019-01-18 13:03:10,068 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding input parameter of type Ljava/lang/String;
+2019-01-18 13:03:10,069 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |changePassword|
+2019-01-18 13:03:10,072 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |changePassword|
+2019-01-18 13:03:10,093 DEBUG [localhost-startStop-1] DefaultModelProvider: Skipping model of type Ljava/lang/Object; as its either a container type, map, enum or base type, or its already been handled
+2019-01-18 13:03:10,099 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.lang.Object
+2019-01-18 13:03:10,100 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Marking base type Ljava/lang/Object; as seen
+2019-01-18 13:03:10,103 DEBUG [localhost-startStop-1] DefaultModelProvider: Skipping model of type Ljava/lang/String; as its either a container type, map, enum or base type, or its already been handled
+2019-01-18 13:03:10,103 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.lang.String
+2019-01-18 13:03:10,104 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Marking base type Ljava/lang/String; as seen
+2019-01-18 13:03:10,140 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: object
+2019-01-18 13:03:10,145 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method changePassword
+2019-01-18 13:03:10,154 DEBUG [localhost-startStop-1] SwaggerOperationResponseClassReader: Setting response class to:object
+2019-01-18 13:03:10,193 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Lcom/greenfurniture/onlineorder/dto/UserDto;
+2019-01-18 13:03:10,193 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |getAccount|
+2019-01-18 13:03:10,199 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |getAccount|
+2019-01-18 13:03:10,209 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |getAccount|
+2019-01-18 13:03:10,267 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property id
+2019-01-18 13:03:10,278 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getId
+2019-01-18 13:03:10,281 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'id' renamed to 'id'
+2019-01-18 13:03:10,282 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property id to model
+2019-01-18 13:03:10,285 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getId
+2019-01-18 13:03:10,285 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getId
+2019-01-18 13:03:10,286 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getId
+2019-01-18 13:03:10,295 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getId
+2019-01-18 13:03:10,306 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property login
+2019-01-18 13:03:10,306 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLogin
+2019-01-18 13:03:10,306 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'login' renamed to 'login'
+2019-01-18 13:03:10,315 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property login to model
+2019-01-18 13:03:10,317 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLogin
+2019-01-18 13:03:10,317 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLogin
+2019-01-18 13:03:10,324 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLogin
+2019-01-18 13:03:10,325 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLogin
+2019-01-18 13:03:10,326 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property firstName
+2019-01-18 13:03:10,331 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getFirstName
+2019-01-18 13:03:10,331 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'firstName' renamed to 'firstName'
+2019-01-18 13:03:10,338 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property firstName to model
+2019-01-18 13:03:10,339 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getFirstName
+2019-01-18 13:03:10,339 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getFirstName
+2019-01-18 13:03:10,342 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getFirstName
+2019-01-18 13:03:10,343 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getFirstName
+2019-01-18 13:03:10,352 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property lastName
+2019-01-18 13:03:10,355 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastName
+2019-01-18 13:03:10,364 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'lastName' renamed to 'lastName'
+2019-01-18 13:03:10,367 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property lastName to model
+2019-01-18 13:03:10,373 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastName
+2019-01-18 13:03:10,373 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastName
+2019-01-18 13:03:10,373 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastName
+2019-01-18 13:03:10,374 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastName
+2019-01-18 13:03:10,381 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property email
+2019-01-18 13:03:10,381 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getEmail
+2019-01-18 13:03:10,390 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'email' renamed to 'email'
+2019-01-18 13:03:10,406 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property email to model
+2019-01-18 13:03:10,409 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getEmail
+2019-01-18 13:03:10,418 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getEmail
+2019-01-18 13:03:10,420 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getEmail
+2019-01-18 13:03:10,421 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getEmail
+2019-01-18 13:03:10,431 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property activated
+2019-01-18 13:03:10,434 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member isActivated
+2019-01-18 13:03:10,440 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'activated' renamed to 'activated'
+2019-01-18 13:03:10,441 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property activated to model
+2019-01-18 13:03:10,442 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member isActivated
+2019-01-18 13:03:10,446 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member isActivated
+2019-01-18 13:03:10,447 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member isActivated
+2019-01-18 13:03:10,453 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member isActivated
+2019-01-18 13:03:10,456 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property createdBy
+2019-01-18 13:03:10,457 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getCreatedBy
+2019-01-18 13:03:10,466 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'createdBy' renamed to 'createdBy'
+2019-01-18 13:03:10,469 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property createdBy to model
+2019-01-18 13:03:10,476 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getCreatedBy
+2019-01-18 13:03:10,476 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getCreatedBy
+2019-01-18 13:03:10,476 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getCreatedBy
+2019-01-18 13:03:10,479 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getCreatedBy
+2019-01-18 13:03:10,483 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property createdDate
+2019-01-18 13:03:10,492 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getCreatedDate
+2019-01-18 13:03:10,507 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'createdDate' renamed to 'createdDate'
+2019-01-18 13:03:10,517 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property createdDate to model
+2019-01-18 13:03:10,518 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getCreatedDate
+2019-01-18 13:03:10,520 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getCreatedDate
+2019-01-18 13:03:10,528 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getCreatedDate
+2019-01-18 13:03:10,529 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getCreatedDate
+2019-01-18 13:03:10,531 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property lastModifiedBy
+2019-01-18 13:03:10,531 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastModifiedBy
+2019-01-18 13:03:10,538 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'lastModifiedBy' renamed to 'lastModifiedBy'
+2019-01-18 13:03:10,538 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property lastModifiedBy to model
+2019-01-18 13:03:10,541 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastModifiedBy
+2019-01-18 13:03:10,541 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastModifiedBy
+2019-01-18 13:03:10,550 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastModifiedBy
+2019-01-18 13:03:10,552 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastModifiedBy
+2019-01-18 13:03:10,559 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property lastModifiedDate
+2019-01-18 13:03:10,560 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastModifiedDate
+2019-01-18 13:03:10,563 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'lastModifiedDate' renamed to 'lastModifiedDate'
+2019-01-18 13:03:10,564 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property lastModifiedDate to model
+2019-01-18 13:03:10,570 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastModifiedDate
+2019-01-18 13:03:10,571 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastModifiedDate
+2019-01-18 13:03:10,571 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastModifiedDate
+2019-01-18 13:03:10,572 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastModifiedDate
+2019-01-18 13:03:10,575 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property authorities
+2019-01-18 13:03:10,584 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getAuthorities
+2019-01-18 13:03:10,587 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'authorities' renamed to 'authorities'
+2019-01-18 13:03:10,593 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property authorities to model
+2019-01-18 13:03:10,594 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getAuthorities
+2019-01-18 13:03:10,594 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getAuthorities
+2019-01-18 13:03:10,595 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getAuthorities
+2019-01-18 13:03:10,603 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getAuthorities
+2019-01-18 13:03:10,614 DEBUG [localhost-startStop-1] DefaultModelProvider: Inferred 11 properties. Properties found activated, authorities, createdBy, createdDate, email, firstName, id, lastModifiedBy, lastModifiedDate, lastName, login
+2019-01-18 13:03:10,617 DEBUG [localhost-startStop-1] ApiModelReader: Generated parameter model id: UserDto, name: UserDto, schema: {} models
+2019-01-18 13:03:10,617 DEBUG [localhost-startStop-1] ApiModelReader: Adding a new model with key UserDto
+2019-01-18 13:03:10,623 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Adding type Ljava/util/Set<Ljava/lang/String;>; for parameter authorities
+2019-01-18 13:03:10,624 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Recursively resolving dependencies for collectionElement type Ljava/lang/String;
+2019-01-18 13:03:10,625 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Marking base type Ljava/lang/String; as seen
+2019-01-18 13:03:10,634 DEBUG [localhost-startStop-1] DefaultModelProvider: Skipping model of type Ljava/util/Set<Ljava/lang/String;>; as its either a container type, map, enum or base type, or its already been handled
+2019-01-18 13:03:10,636 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: UserDto
+2019-01-18 13:03:10,637 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method getAccount
+2019-01-18 13:03:10,643 DEBUG [localhost-startStop-1] SwaggerOperationResponseClassReader: Setting response class to:UserDto
+2019-01-18 13:03:10,646 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Ljava/lang/String;
+2019-01-18 13:03:10,648 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |isAuthenticated|
+2019-01-18 13:03:10,649 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |isAuthenticated|
+2019-01-18 13:03:10,655 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |isAuthenticated|
+2019-01-18 13:03:10,656 DEBUG [localhost-startStop-1] DefaultModelProvider: Skipping model of type Ljava/lang/String; as its either a container type, map, enum or base type, or its already been handled
+2019-01-18 13:03:10,658 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.lang.String
+2019-01-18 13:03:10,659 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Marking base type Ljava/lang/String; as seen
+2019-01-18 13:03:10,668 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: string
+2019-01-18 13:03:10,670 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method isAuthenticated
+2019-01-18 13:03:10,670 DEBUG [localhost-startStop-1] SwaggerOperationResponseClassReader: Setting response class to:string
+2019-01-18 13:03:10,679 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Ljava/lang/Object;
+2019-01-18 13:03:10,680 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |registerAccount|
+2019-01-18 13:03:10,681 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding input parameter of type Lcom/greenfurniture/onlineorder/dto/ManagedUserDto;
+2019-01-18 13:03:10,687 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |registerAccount|
+2019-01-18 13:03:10,688 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |registerAccount|
+2019-01-18 13:03:10,691 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.lang.Object
+2019-01-18 13:03:10,692 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property id
+2019-01-18 13:03:10,705 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setId
+2019-01-18 13:03:10,707 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'id' renamed to 'id'
+2019-01-18 13:03:10,716 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property id to model
+2019-01-18 13:03:10,718 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setId
+2019-01-18 13:03:10,725 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setId
+2019-01-18 13:03:10,726 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setId
+2019-01-18 13:03:10,730 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setId
+2019-01-18 13:03:10,736 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property login
+2019-01-18 13:03:10,737 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLogin
+2019-01-18 13:03:10,738 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'login' renamed to 'login'
+2019-01-18 13:03:10,740 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property login to model
+2019-01-18 13:03:10,741 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLogin
+2019-01-18 13:03:10,750 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLogin
+2019-01-18 13:03:10,753 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLogin
+2019-01-18 13:03:10,759 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLogin
+2019-01-18 13:03:10,760 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property firstName
+2019-01-18 13:03:10,766 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'firstName' renamed to 'firstName'
+2019-01-18 13:03:10,773 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property lastName
+2019-01-18 13:03:10,773 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'lastName' renamed to 'lastName'
+2019-01-18 13:03:10,773 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property email
+2019-01-18 13:03:10,782 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'email' renamed to 'email'
+2019-01-18 13:03:10,785 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property activated
+2019-01-18 13:03:10,794 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'activated' renamed to 'activated'
+2019-01-18 13:03:10,801 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property createdBy
+2019-01-18 13:03:10,807 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'createdBy' renamed to 'createdBy'
+2019-01-18 13:03:10,817 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property createdDate
+2019-01-18 13:03:10,818 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'createdDate' renamed to 'createdDate'
+2019-01-18 13:03:10,820 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property lastModifiedBy
+2019-01-18 13:03:10,820 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'lastModifiedBy' renamed to 'lastModifiedBy'
+2019-01-18 13:03:10,827 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property lastModifiedDate
+2019-01-18 13:03:10,830 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLastModifiedDate
+2019-01-18 13:03:10,830 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'lastModifiedDate' renamed to 'lastModifiedDate'
+2019-01-18 13:03:10,836 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property lastModifiedDate to model
+2019-01-18 13:03:10,836 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLastModifiedDate
+2019-01-18 13:03:10,837 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLastModifiedDate
+2019-01-18 13:03:10,837 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLastModifiedDate
+2019-01-18 13:03:10,838 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLastModifiedDate
+2019-01-18 13:03:10,848 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property authorities
+2019-01-18 13:03:10,849 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'authorities' renamed to 'authorities'
+2019-01-18 13:03:10,851 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property password
+2019-01-18 13:03:10,857 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'password' renamed to 'password'
+2019-01-18 13:03:10,858 DEBUG [localhost-startStop-1] DefaultModelProvider: Inferred 12 properties. Properties found activated, authorities, createdBy, createdDate, email, firstName, id, lastModifiedBy, lastModifiedDate, lastName, login, password
+2019-01-18 13:03:10,859 DEBUG [localhost-startStop-1] ApiModelReader: Generated parameter model id: ManagedUserDto, name: ManagedUserDto, schema: {} models
+2019-01-18 13:03:10,863 DEBUG [localhost-startStop-1] ApiModelReader: Adding a new model with key ManagedUserDto
+2019-01-18 13:03:10,863 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Adding type Ljava/util/Set<Ljava/lang/String;>; for parameter authorities
+2019-01-18 13:03:10,869 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Recursively resolving dependencies for collectionElement type Ljava/lang/String;
+2019-01-18 13:03:10,870 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Marking base type Ljava/lang/String; as seen
+2019-01-18 13:03:10,871 DEBUG [localhost-startStop-1] DefaultModelProvider: Skipping model of type Ljava/util/Set<Ljava/lang/String;>; as its either a container type, map, enum or base type, or its already been handled
+2019-01-18 13:03:10,874 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: object
+2019-01-18 13:03:10,882 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method registerAccount
+2019-01-18 13:03:10,884 DEBUG [localhost-startStop-1] SwaggerOperationResponseClassReader: Setting response class to:object
+2019-01-18 13:03:10,947 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Ljava/lang/Void;
+2019-01-18 13:03:10,948 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |createAuthor|
+2019-01-18 13:03:10,951 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding input parameter of type Lcom/greenfurniture/onlineorder/domain/Author;
+2019-01-18 13:03:10,958 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |createAuthor|
+2019-01-18 13:03:10,959 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |createAuthor|
+2019-01-18 13:03:10,963 DEBUG [localhost-startStop-1] DefaultModelProvider: Skipping model of type Ljava/lang/Void; as its either a container type, map, enum or base type, or its already been handled
+2019-01-18 13:03:10,964 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.lang.Void
+2019-01-18 13:03:10,972 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property id
+2019-01-18 13:03:10,973 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setId
+2019-01-18 13:03:10,974 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'id' renamed to 'id'
+2019-01-18 13:03:10,983 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property id to model
+2019-01-18 13:03:10,984 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setId
+2019-01-18 13:03:10,985 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setId
+2019-01-18 13:03:11,000 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setId
+2019-01-18 13:03:11,004 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setId
+2019-01-18 13:03:11,004 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property firstName
+2019-01-18 13:03:11,013 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setFirstName
+2019-01-18 13:03:11,016 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'firstName' renamed to 'firstName'
+2019-01-18 13:03:11,022 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property firstName to model
+2019-01-18 13:03:11,022 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setFirstName
+2019-01-18 13:03:11,023 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setFirstName
+2019-01-18 13:03:11,025 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setFirstName
+2019-01-18 13:03:11,034 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setFirstName
+2019-01-18 13:03:11,036 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property lastName
+2019-01-18 13:03:11,037 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLastName
+2019-01-18 13:03:11,044 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'lastName' renamed to 'lastName'
+2019-01-18 13:03:11,045 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property lastName to model
+2019-01-18 13:03:11,047 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLastName
+2019-01-18 13:03:11,048 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLastName
+2019-01-18 13:03:11,054 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLastName
+2019-01-18 13:03:11,055 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLastName
+2019-01-18 13:03:11,055 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property nationality
+2019-01-18 13:03:11,058 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setNationality
+2019-01-18 13:03:11,058 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'nationality' renamed to 'nationality'
+2019-01-18 13:03:11,067 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property nationality to model
+2019-01-18 13:03:11,069 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setNationality
+2019-01-18 13:03:11,075 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setNationality
+2019-01-18 13:03:11,076 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setNationality
+2019-01-18 13:03:11,078 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setNationality
+2019-01-18 13:03:11,081 DEBUG [localhost-startStop-1] DefaultModelProvider: Inferred 4 properties. Properties found firstName, id, lastName, nationality
+2019-01-18 13:03:11,088 DEBUG [localhost-startStop-1] ApiModelReader: Generated parameter model id: Author, name: Author, schema: {} models
+2019-01-18 13:03:11,088 DEBUG [localhost-startStop-1] ApiModelReader: Adding a new model with key Author
+2019-01-18 13:03:11,091 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: Void
+2019-01-18 13:03:11,105 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method createAuthor
+2019-01-18 13:03:11,109 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Ljava/lang/Void;
+2019-01-18 13:03:11,116 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |deleteAuthor|
+2019-01-18 13:03:11,118 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |deleteAuthor|
+2019-01-18 13:03:11,119 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |deleteAuthor|
+2019-01-18 13:03:11,125 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.lang.Void
+2019-01-18 13:03:11,130 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: Void
+2019-01-18 13:03:11,131 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method deleteAuthor
+2019-01-18 13:03:11,137 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Ljava/util/List<Lcom/greenfurniture/onlineorder/domain/Author;>;
+2019-01-18 13:03:11,137 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |getAllAuthors|
+2019-01-18 13:03:11,138 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |getAllAuthors|
+2019-01-18 13:03:11,140 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |getAllAuthors|
+2019-01-18 13:03:11,149 DEBUG [localhost-startStop-1] DefaultModelProvider: Skipping model of type Ljava/util/List<Lcom/greenfurniture/onlineorder/domain/Author;>; as its either a container type, map, enum or base type, or its already been handled
+2019-01-18 13:03:11,151 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.util.List<com.greenfurniture.onlineorder.domain.Author>
+2019-01-18 13:03:11,157 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Adding type for parameter Lcom/greenfurniture/onlineorder/domain/Author;
+2019-01-18 13:03:11,157 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Recursively resolving dependencies for parameter Lcom/greenfurniture/onlineorder/domain/Author;
+2019-01-18 13:03:11,159 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property id
+2019-01-18 13:03:11,162 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getId
+2019-01-18 13:03:11,163 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'id' renamed to 'id'
+2019-01-18 13:03:11,169 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property id to model
+2019-01-18 13:03:11,170 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getId
+2019-01-18 13:03:11,170 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getId
+2019-01-18 13:03:11,171 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getId
+2019-01-18 13:03:11,181 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getId
+2019-01-18 13:03:11,183 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property firstName
+2019-01-18 13:03:11,183 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getFirstName
+2019-01-18 13:03:11,190 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'firstName' renamed to 'firstName'
+2019-01-18 13:03:11,191 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property firstName to model
+2019-01-18 13:03:11,201 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getFirstName
+2019-01-18 13:03:11,202 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getFirstName
+2019-01-18 13:03:11,202 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getFirstName
+2019-01-18 13:03:11,203 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getFirstName
+2019-01-18 13:03:11,206 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property lastName
+2019-01-18 13:03:11,218 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastName
+2019-01-18 13:03:11,220 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'lastName' renamed to 'lastName'
+2019-01-18 13:03:11,228 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property lastName to model
+2019-01-18 13:03:11,230 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastName
+2019-01-18 13:03:11,237 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastName
+2019-01-18 13:03:11,238 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastName
+2019-01-18 13:03:11,238 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastName
+2019-01-18 13:03:11,241 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property nationality
+2019-01-18 13:03:11,241 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getNationality
+2019-01-18 13:03:11,250 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'nationality' renamed to 'nationality'
+2019-01-18 13:03:11,253 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property nationality to model
+2019-01-18 13:03:11,254 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getNationality
+2019-01-18 13:03:11,262 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getNationality
+2019-01-18 13:03:11,264 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getNationality
+2019-01-18 13:03:11,271 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getNationality
+2019-01-18 13:03:11,273 DEBUG [localhost-startStop-1] DefaultModelProvider: Inferred 4 properties. Properties found firstName, id, lastName, nationality
+2019-01-18 13:03:11,276 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: List
+2019-01-18 13:03:11,285 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method getAllAuthors
+2019-01-18 13:03:11,287 DEBUG [localhost-startStop-1] SwaggerOperationResponseClassReader: Setting response class to:List
+2019-01-18 13:03:11,288 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Lcom/greenfurniture/onlineorder/domain/Author;
+2019-01-18 13:03:11,298 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |getOneAuthorById|
+2019-01-18 13:03:11,300 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |getOneAuthorById|
+2019-01-18 13:03:11,307 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |getOneAuthorById|
+2019-01-18 13:03:11,307 DEBUG [localhost-startStop-1] DefaultModelProvider: Inferred 4 properties. Properties found firstName, id, lastName, nationality
+2019-01-18 13:03:11,310 DEBUG [localhost-startStop-1] ApiModelReader: Generated parameter model id: Author, name: Author, schema: {} models
+2019-01-18 13:03:11,324 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: Author
+2019-01-18 13:03:11,325 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method getOneAuthorById
+2019-01-18 13:03:11,334 DEBUG [localhost-startStop-1] SwaggerOperationResponseClassReader: Setting response class to:Author
+2019-01-18 13:03:11,336 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Lcom/greenfurniture/onlineorder/domain/Author;
+2019-01-18 13:03:11,336 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |updateAuthor|
+2019-01-18 13:03:11,342 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding input parameter of type Lcom/greenfurniture/onlineorder/domain/Author;
+2019-01-18 13:03:11,343 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |updateAuthor|
+2019-01-18 13:03:11,344 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |updateAuthor|
+2019-01-18 13:03:11,347 DEBUG [localhost-startStop-1] ApiModelReader: Generated parameter model id: Author, name: Author, schema: {} models
+2019-01-18 13:03:11,354 DEBUG [localhost-startStop-1] ApiModelReader: Generated parameter model id: Author, name: Author, schema: {} models
+2019-01-18 13:03:11,355 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: Author
+2019-01-18 13:03:11,357 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method updateAuthor
+2019-01-18 13:03:11,357 DEBUG [localhost-startStop-1] SwaggerOperationResponseClassReader: Setting response class to:Author
+2019-01-18 13:03:11,367 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Ljava/lang/Object;
+2019-01-18 13:03:11,368 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |authorize|
+2019-01-18 13:03:11,368 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding input parameter of type Lcom/greenfurniture/onlineorder/dto/LoginDto;
+2019-01-18 13:03:11,375 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |authorize|
+2019-01-18 13:03:11,375 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |authorize|
+2019-01-18 13:03:11,376 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property username
+2019-01-18 13:03:11,380 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setUsername
+2019-01-18 13:03:11,380 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'username' renamed to 'username'
+2019-01-18 13:03:11,387 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property username to model
+2019-01-18 13:03:11,388 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setUsername
+2019-01-18 13:03:11,390 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setUsername
+2019-01-18 13:03:11,400 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setUsername
+2019-01-18 13:03:11,402 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setUsername
+2019-01-18 13:03:11,407 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property password
+2019-01-18 13:03:11,407 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setPassword
+2019-01-18 13:03:11,416 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'password' renamed to 'password'
+2019-01-18 13:03:11,418 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property password to model
+2019-01-18 13:03:11,418 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setPassword
+2019-01-18 13:03:11,425 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setPassword
+2019-01-18 13:03:11,425 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setPassword
+2019-01-18 13:03:11,426 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setPassword
+2019-01-18 13:03:11,427 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property rememberMe
+2019-01-18 13:03:11,431 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setRememberMe
+2019-01-18 13:03:11,436 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'rememberMe' renamed to 'rememberMe'
+2019-01-18 13:03:11,437 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property rememberMe to model
+2019-01-18 13:03:11,437 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setRememberMe
+2019-01-18 13:03:11,438 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setRememberMe
+2019-01-18 13:03:11,438 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setRememberMe
+2019-01-18 13:03:11,441 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setRememberMe
+2019-01-18 13:03:11,449 DEBUG [localhost-startStop-1] DefaultModelProvider: Inferred 3 properties. Properties found password, rememberMe, username
+2019-01-18 13:03:11,450 DEBUG [localhost-startStop-1] ApiModelReader: Generated parameter model id: LoginDto, name: LoginDto, schema: {} models
+2019-01-18 13:03:11,452 DEBUG [localhost-startStop-1] ApiModelReader: Adding a new model with key LoginDto
+2019-01-18 13:03:11,459 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.lang.Object
+2019-01-18 13:03:11,462 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: object
+2019-01-18 13:03:11,464 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method authorize
+2019-01-18 13:03:11,464 DEBUG [localhost-startStop-1] SwaggerOperationResponseClassReader: Setting response class to:object
+2019-01-18 13:03:11,472 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Ljava/lang/Object;
+2019-01-18 13:03:11,473 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |createUser|
+2019-01-18 13:03:11,474 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding input parameter of type Lcom/greenfurniture/onlineorder/dto/ManagedUserDto;
+2019-01-18 13:03:11,482 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |createUser|
+2019-01-18 13:03:11,484 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |createUser|
+2019-01-18 13:03:11,491 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.lang.Object
+2019-01-18 13:03:11,491 DEBUG [localhost-startStop-1] ApiModelReader: Generated parameter model id: ManagedUserDto, name: ManagedUserDto, schema: {} models
+2019-01-18 13:03:11,492 DEBUG [localhost-startStop-1] ApiModelReader: Adding a new model with key ManagedUserDto
+2019-01-18 13:03:11,496 DEBUG [localhost-startStop-1] DefaultModelProvider: Skipping model of type Ljava/util/Set<Ljava/lang/String;>; as its either a container type, map, enum or base type, or its already been handled
+2019-01-18 13:03:11,504 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: object
+2019-01-18 13:03:11,504 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method createUser
+2019-01-18 13:03:11,505 DEBUG [localhost-startStop-1] SwaggerOperationResponseClassReader: Setting response class to:object
+2019-01-18 13:03:11,506 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Ljava/lang/Void;
+2019-01-18 13:03:11,508 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |deleteUser|
+2019-01-18 13:03:11,520 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |deleteUser|
+2019-01-18 13:03:11,522 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |deleteUser|
+2019-01-18 13:03:11,531 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.lang.Void
+2019-01-18 13:03:11,535 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: Void
+2019-01-18 13:03:11,536 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method deleteUser
+2019-01-18 13:03:11,543 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Ljava/util/List<Lcom/greenfurniture/onlineorder/dto/UserDto;>;
+2019-01-18 13:03:11,546 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |getAllUsers|
+2019-01-18 13:03:11,546 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |getAllUsers|
+2019-01-18 13:03:11,552 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |getAllUsers|
+2019-01-18 13:03:11,553 DEBUG [localhost-startStop-1] DefaultModelProvider: Skipping model of type Ljava/util/List<Lcom/greenfurniture/onlineorder/dto/UserDto;>; as its either a container type, map, enum or base type, or its already been handled
+2019-01-18 13:03:11,553 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.util.List<com.greenfurniture.onlineorder.dto.UserDto>
+2019-01-18 13:03:11,554 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Adding type for parameter Lcom/greenfurniture/onlineorder/dto/UserDto;
+2019-01-18 13:03:11,565 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Recursively resolving dependencies for parameter Lcom/greenfurniture/onlineorder/dto/UserDto;
+2019-01-18 13:03:11,568 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Adding type Ljava/util/Set<Ljava/lang/String;>; for parameter authorities
+2019-01-18 13:03:11,568 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Recursively resolving dependencies for collectionElement type Ljava/lang/String;
+2019-01-18 13:03:11,575 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Marking base type Ljava/lang/String; as seen
+2019-01-18 13:03:11,577 DEBUG [localhost-startStop-1] DefaultModelProvider: Inferred 11 properties. Properties found activated, authorities, createdBy, createdDate, email, firstName, id, lastModifiedBy, lastModifiedDate, lastName, login
+2019-01-18 13:03:11,581 DEBUG [localhost-startStop-1] DefaultModelProvider: Skipping model of type Ljava/util/Set<Ljava/lang/String;>; as its either a container type, map, enum or base type, or its already been handled
+2019-01-18 13:03:11,588 DEBUG [localhost-startStop-1] ApiModelReader: Adding a new model with key UserDto
+2019-01-18 13:03:11,594 DEBUG [localhost-startStop-1] ModelAttributeParameterExpander: Expanding parameter type: org.springframework.data.domain.Pageable
+2019-01-18 13:03:11,608 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: List
+2019-01-18 13:03:11,608 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method getAllUsers
+2019-01-18 13:03:11,609 DEBUG [localhost-startStop-1] SwaggerOperationResponseClassReader: Setting response class to:List
+2019-01-18 13:03:11,618 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Ljava/util/List<Ljava/lang/String;>;
+2019-01-18 13:03:11,620 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |getAuthorities|
+2019-01-18 13:03:11,627 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |getAuthorities|
+2019-01-18 13:03:11,629 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |getAuthorities|
+2019-01-18 13:03:11,631 DEBUG [localhost-startStop-1] DefaultModelProvider: Skipping model of type Ljava/util/List<Ljava/lang/String;>; as its either a container type, map, enum or base type, or its already been handled
+2019-01-18 13:03:11,631 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.util.List<java.lang.String>
+2019-01-18 13:03:11,637 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Adding type for parameter Ljava/lang/String;
+2019-01-18 13:03:11,638 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Recursively resolving dependencies for parameter Ljava/lang/String;
+2019-01-18 13:03:11,638 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Marking base type Ljava/lang/String; as seen
+2019-01-18 13:03:11,640 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: List
+2019-01-18 13:03:11,641 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method getAuthorities
+2019-01-18 13:03:11,649 DEBUG [localhost-startStop-1] SwaggerOperationResponseClassReader: Setting response class to:List
+2019-01-18 13:03:11,651 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Ljava/lang/Object;
+2019-01-18 13:03:11,652 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |getUser|
+2019-01-18 13:03:11,659 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |getUser|
+2019-01-18 13:03:11,661 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |getUser|
+2019-01-18 13:03:11,663 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.lang.Object
+2019-01-18 13:03:11,664 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: object
+2019-01-18 13:03:11,670 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method getUser
+2019-01-18 13:03:11,671 DEBUG [localhost-startStop-1] SwaggerOperationResponseClassReader: Setting response class to:object
+2019-01-18 13:03:11,673 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Ljava/lang/Object;
+2019-01-18 13:03:11,674 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |updateUser|
+2019-01-18 13:03:11,682 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding input parameter of type Lcom/greenfurniture/onlineorder/dto/ManagedUserDto;
+2019-01-18 13:03:11,684 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |updateUser|
+2019-01-18 13:03:11,684 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |updateUser|
+2019-01-18 13:03:11,692 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.lang.Object
+2019-01-18 13:03:11,697 DEBUG [localhost-startStop-1] ApiModelReader: Generated parameter model id: ManagedUserDto, name: ManagedUserDto, schema: {} models
+2019-01-18 13:03:11,698 DEBUG [localhost-startStop-1] DefaultModelProvider: Skipping model of type Ljava/util/Set<Ljava/lang/String;>; as its either a container type, map, enum or base type, or its already been handled
+2019-01-18 13:03:11,706 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: object
+2019-01-18 13:03:11,709 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method updateUser
+2019-01-18 13:03:11,717 DEBUG [localhost-startStop-1] SwaggerOperationResponseClassReader: Setting response class to:object
+2019-01-18 13:03:11,726 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Ljava/lang/String;
+2019-01-18 13:03:11,727 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |welcome|
+2019-01-18 13:03:11,735 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |welcome|
+2019-01-18 13:03:11,736 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |welcome|
+2019-01-18 13:03:11,743 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.lang.String
+2019-01-18 13:03:11,747 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: string
+2019-01-18 13:03:11,748 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method welcome
+2019-01-18 13:03:11,749 DEBUG [localhost-startStop-1] SwaggerOperationResponseClassReader: Setting response class to:string
+2019-01-18 13:03:12,339 DEBUG [localhost-startStop-1] PropertySourcedRequestMappingHandlerMapping: initialising the handler methods
+2019-01-18 13:03:12,341 INFO  [localhost-startStop-1] PropertySourcedRequestMappingHandlerMapping: Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-18 13:03:12,385 INFO  [localhost-startStop-1] DocumentationPluginsBootstrapper: Context refreshed
+2019-01-18 13:03:12,387 INFO  [localhost-startStop-1] DocumentationPluginsBootstrapper: Found 1 custom documentation plugin(s)
+2019-01-18 13:03:12,412 INFO  [localhost-startStop-1] ApiListingReferenceScanner: Scanning for api listing references
+2019-01-18 13:03:12,418 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Ljava/lang/Object;
+2019-01-18 13:03:12,419 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |changePassword|
+2019-01-18 13:03:12,422 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding input parameter of type Ljava/lang/String;
+2019-01-18 13:03:12,433 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |changePassword|
+2019-01-18 13:03:12,436 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |changePassword|
+2019-01-18 13:03:12,437 DEBUG [localhost-startStop-1] DefaultModelProvider: Skipping model of type Ljava/lang/Object; as its either a container type, map, enum or base type, or its already been handled
+2019-01-18 13:03:12,445 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.lang.Object
+2019-01-18 13:03:12,448 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Marking base type Ljava/lang/Object; as seen
+2019-01-18 13:03:12,449 DEBUG [localhost-startStop-1] DefaultModelProvider: Skipping model of type Ljava/lang/String; as its either a container type, map, enum or base type, or its already been handled
+2019-01-18 13:03:12,456 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.lang.String
+2019-01-18 13:03:12,456 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Marking base type Ljava/lang/String; as seen
+2019-01-18 13:03:12,461 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: object
+2019-01-18 13:03:12,468 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method changePassword
+2019-01-18 13:03:12,469 DEBUG [localhost-startStop-1] SwaggerOperationResponseClassReader: Setting response class to:object
+2019-01-18 13:03:12,473 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Lcom/greenfurniture/onlineorder/dto/UserDto;
+2019-01-18 13:03:12,473 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |getAccount|
+2019-01-18 13:03:12,481 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |getAccount|
+2019-01-18 13:03:12,484 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |getAccount|
+2019-01-18 13:03:12,491 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property id
+2019-01-18 13:03:12,491 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getId
+2019-01-18 13:03:12,491 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'id' renamed to 'id'
+2019-01-18 13:03:12,492 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property id to model
+2019-01-18 13:03:12,496 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getId
+2019-01-18 13:03:12,504 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getId
+2019-01-18 13:03:12,506 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getId
+2019-01-18 13:03:12,507 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getId
+2019-01-18 13:03:12,521 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property login
+2019-01-18 13:03:12,523 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLogin
+2019-01-18 13:03:12,523 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'login' renamed to 'login'
+2019-01-18 13:03:12,532 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property login to model
+2019-01-18 13:03:12,534 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLogin
+2019-01-18 13:03:12,535 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLogin
+2019-01-18 13:03:12,541 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLogin
+2019-01-18 13:03:12,542 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLogin
+2019-01-18 13:03:12,542 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property firstName
+2019-01-18 13:03:12,546 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getFirstName
+2019-01-18 13:03:12,546 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'firstName' renamed to 'firstName'
+2019-01-18 13:03:12,553 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property firstName to model
+2019-01-18 13:03:12,553 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getFirstName
+2019-01-18 13:03:12,554 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getFirstName
+2019-01-18 13:03:12,556 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getFirstName
+2019-01-18 13:03:12,557 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getFirstName
+2019-01-18 13:03:12,566 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property lastName
+2019-01-18 13:03:12,568 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastName
+2019-01-18 13:03:12,575 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'lastName' renamed to 'lastName'
+2019-01-18 13:03:12,575 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property lastName to model
+2019-01-18 13:03:12,575 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastName
+2019-01-18 13:03:12,580 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastName
+2019-01-18 13:03:12,580 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastName
+2019-01-18 13:03:12,587 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastName
+2019-01-18 13:03:12,588 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property email
+2019-01-18 13:03:12,588 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getEmail
+2019-01-18 13:03:12,589 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'email' renamed to 'email'
+2019-01-18 13:03:12,603 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property email to model
+2019-01-18 13:03:12,605 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getEmail
+2019-01-18 13:03:12,619 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getEmail
+2019-01-18 13:03:12,621 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getEmail
+2019-01-18 13:03:12,630 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getEmail
+2019-01-18 13:03:12,632 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property activated
+2019-01-18 13:03:12,638 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member isActivated
+2019-01-18 13:03:12,639 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'activated' renamed to 'activated'
+2019-01-18 13:03:12,639 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property activated to model
+2019-01-18 13:03:12,640 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member isActivated
+2019-01-18 13:03:12,643 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member isActivated
+2019-01-18 13:03:12,650 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member isActivated
+2019-01-18 13:03:12,651 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member isActivated
+2019-01-18 13:03:12,654 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property createdBy
+2019-01-18 13:03:12,663 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getCreatedBy
+2019-01-18 13:03:12,665 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'createdBy' renamed to 'createdBy'
+2019-01-18 13:03:12,672 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property createdBy to model
+2019-01-18 13:03:12,673 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getCreatedBy
+2019-01-18 13:03:12,676 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getCreatedBy
+2019-01-18 13:03:12,684 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getCreatedBy
+2019-01-18 13:03:12,686 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getCreatedBy
+2019-01-18 13:03:12,686 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property createdDate
+2019-01-18 13:03:12,694 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getCreatedDate
+2019-01-18 13:03:12,697 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'createdDate' renamed to 'createdDate'
+2019-01-18 13:03:12,697 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property createdDate to model
+2019-01-18 13:03:12,705 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getCreatedDate
+2019-01-18 13:03:12,708 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getCreatedDate
+2019-01-18 13:03:12,721 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getCreatedDate
+2019-01-18 13:03:12,723 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getCreatedDate
+2019-01-18 13:03:12,732 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property lastModifiedBy
+2019-01-18 13:03:12,733 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastModifiedBy
+2019-01-18 13:03:12,734 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'lastModifiedBy' renamed to 'lastModifiedBy'
+2019-01-18 13:03:12,740 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property lastModifiedBy to model
+2019-01-18 13:03:12,741 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastModifiedBy
+2019-01-18 13:03:12,741 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastModifiedBy
+2019-01-18 13:03:12,742 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastModifiedBy
+2019-01-18 13:03:12,752 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastModifiedBy
+2019-01-18 13:03:12,753 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property lastModifiedDate
+2019-01-18 13:03:12,753 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastModifiedDate
+2019-01-18 13:03:12,754 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'lastModifiedDate' renamed to 'lastModifiedDate'
+2019-01-18 13:03:12,754 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property lastModifiedDate to model
+2019-01-18 13:03:12,754 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastModifiedDate
+2019-01-18 13:03:12,755 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastModifiedDate
+2019-01-18 13:03:12,765 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastModifiedDate
+2019-01-18 13:03:12,767 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastModifiedDate
+2019-01-18 13:03:12,768 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property authorities
+2019-01-18 13:03:12,775 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getAuthorities
+2019-01-18 13:03:12,776 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'authorities' renamed to 'authorities'
+2019-01-18 13:03:12,781 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property authorities to model
+2019-01-18 13:03:12,787 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getAuthorities
+2019-01-18 13:03:12,788 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getAuthorities
+2019-01-18 13:03:12,788 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getAuthorities
+2019-01-18 13:03:12,789 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getAuthorities
+2019-01-18 13:03:12,792 DEBUG [localhost-startStop-1] DefaultModelProvider: Inferred 11 properties. Properties found activated, authorities, createdBy, createdDate, email, firstName, id, lastModifiedBy, lastModifiedDate, lastName, login
+2019-01-18 13:03:12,803 DEBUG [localhost-startStop-1] ApiModelReader: Generated parameter model id: UserDto, name: UserDto, schema: {} models
+2019-01-18 13:03:12,805 DEBUG [localhost-startStop-1] ApiModelReader: Adding a new model with key UserDto
+2019-01-18 13:03:12,818 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Adding type Ljava/util/Set<Ljava/lang/String;>; for parameter authorities
+2019-01-18 13:03:12,820 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Recursively resolving dependencies for collectionElement type Ljava/lang/String;
+2019-01-18 13:03:12,827 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Marking base type Ljava/lang/String; as seen
+2019-01-18 13:03:12,829 DEBUG [localhost-startStop-1] DefaultModelProvider: Skipping model of type Ljava/util/Set<Ljava/lang/String;>; as its either a container type, map, enum or base type, or its already been handled
+2019-01-18 13:03:12,831 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: UserDto
+2019-01-18 13:03:12,832 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method getAccount
+2019-01-18 13:03:12,839 DEBUG [localhost-startStop-1] SwaggerOperationResponseClassReader: Setting response class to:UserDto
+2019-01-18 13:03:12,839 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Ljava/lang/String;
+2019-01-18 13:03:12,840 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |isAuthenticated|
+2019-01-18 13:03:12,843 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |isAuthenticated|
+2019-01-18 13:03:12,851 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |isAuthenticated|
+2019-01-18 13:03:12,853 DEBUG [localhost-startStop-1] DefaultModelProvider: Skipping model of type Ljava/lang/String; as its either a container type, map, enum or base type, or its already been handled
+2019-01-18 13:03:12,854 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.lang.String
+2019-01-18 13:03:12,861 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Marking base type Ljava/lang/String; as seen
+2019-01-18 13:03:12,862 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: string
+2019-01-18 13:03:12,865 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method isAuthenticated
+2019-01-18 13:03:12,865 DEBUG [localhost-startStop-1] SwaggerOperationResponseClassReader: Setting response class to:string
+2019-01-18 13:03:12,872 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Ljava/lang/Object;
+2019-01-18 13:03:12,872 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |registerAccount|
+2019-01-18 13:03:12,873 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding input parameter of type Lcom/greenfurniture/onlineorder/dto/ManagedUserDto;
+2019-01-18 13:03:12,876 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |registerAccount|
+2019-01-18 13:03:12,884 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |registerAccount|
+2019-01-18 13:03:12,886 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.lang.Object
+2019-01-18 13:03:12,895 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property id
+2019-01-18 13:03:12,897 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setId
+2019-01-18 13:03:12,897 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'id' renamed to 'id'
+2019-01-18 13:03:12,904 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property id to model
+2019-01-18 13:03:12,905 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setId
+2019-01-18 13:03:12,909 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setId
+2019-01-18 13:03:12,916 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setId
+2019-01-18 13:03:12,918 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setId
+2019-01-18 13:03:12,923 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property login
+2019-01-18 13:03:12,931 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLogin
+2019-01-18 13:03:12,934 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'login' renamed to 'login'
+2019-01-18 13:03:12,940 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property login to model
+2019-01-18 13:03:12,941 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLogin
+2019-01-18 13:03:12,941 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLogin
+2019-01-18 13:03:12,945 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLogin
+2019-01-18 13:03:12,946 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLogin
+2019-01-18 13:03:12,952 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property firstName
+2019-01-18 13:03:12,953 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'firstName' renamed to 'firstName'
+2019-01-18 13:03:12,953 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property lastName
+2019-01-18 13:03:12,956 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'lastName' renamed to 'lastName'
+2019-01-18 13:03:12,957 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property email
+2019-01-18 13:03:12,965 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'email' renamed to 'email'
+2019-01-18 13:03:12,968 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property activated
+2019-01-18 13:03:12,974 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'activated' renamed to 'activated'
+2019-01-18 13:03:12,975 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property createdBy
+2019-01-18 13:03:12,975 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'createdBy' renamed to 'createdBy'
+2019-01-18 13:03:12,976 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property createdDate
+2019-01-18 13:03:12,980 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'createdDate' renamed to 'createdDate'
+2019-01-18 13:03:12,986 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property lastModifiedBy
+2019-01-18 13:03:12,987 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'lastModifiedBy' renamed to 'lastModifiedBy'
+2019-01-18 13:03:12,987 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property lastModifiedDate
+2019-01-18 13:03:12,988 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLastModifiedDate
+2019-01-18 13:03:12,990 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'lastModifiedDate' renamed to 'lastModifiedDate'
+2019-01-18 13:03:12,999 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property lastModifiedDate to model
+2019-01-18 13:03:13,003 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLastModifiedDate
+2019-01-18 13:03:13,009 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLastModifiedDate
+2019-01-18 13:03:13,010 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLastModifiedDate
+2019-01-18 13:03:13,012 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLastModifiedDate
+2019-01-18 13:03:13,018 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property authorities
+2019-01-18 13:03:13,025 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'authorities' renamed to 'authorities'
+2019-01-18 13:03:13,025 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property password
+2019-01-18 13:03:13,026 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'password' renamed to 'password'
+2019-01-18 13:03:13,030 DEBUG [localhost-startStop-1] DefaultModelProvider: Inferred 12 properties. Properties found activated, authorities, createdBy, createdDate, email, firstName, id, lastModifiedBy, lastModifiedDate, lastName, login, password
+2019-01-18 13:03:13,036 DEBUG [localhost-startStop-1] ApiModelReader: Generated parameter model id: ManagedUserDto, name: ManagedUserDto, schema: {} models
+2019-01-18 13:03:13,037 DEBUG [localhost-startStop-1] ApiModelReader: Adding a new model with key ManagedUserDto
+2019-01-18 13:03:13,037 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Adding type Ljava/util/Set<Ljava/lang/String;>; for parameter authorities
+2019-01-18 13:03:13,038 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Recursively resolving dependencies for collectionElement type Ljava/lang/String;
+2019-01-18 13:03:13,048 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Marking base type Ljava/lang/String; as seen
+2019-01-18 13:03:13,049 DEBUG [localhost-startStop-1] DefaultModelProvider: Skipping model of type Ljava/util/Set<Ljava/lang/String;>; as its either a container type, map, enum or base type, or its already been handled
+2019-01-18 13:03:13,050 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: object
+2019-01-18 13:03:13,053 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method registerAccount
+2019-01-18 13:03:13,059 DEBUG [localhost-startStop-1] SwaggerOperationResponseClassReader: Setting response class to:object
+2019-01-18 13:03:13,063 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Ljava/lang/Void;
+2019-01-18 13:03:13,064 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |createAuthor|
+2019-01-18 13:03:13,065 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding input parameter of type Lcom/greenfurniture/onlineorder/domain/Author;
+2019-01-18 13:03:13,071 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |createAuthor|
+2019-01-18 13:03:13,072 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |createAuthor|
+2019-01-18 13:03:13,074 DEBUG [localhost-startStop-1] DefaultModelProvider: Skipping model of type Ljava/lang/Void; as its either a container type, map, enum or base type, or its already been handled
+2019-01-18 13:03:13,074 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.lang.Void
+2019-01-18 13:03:13,084 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property id
+2019-01-18 13:03:13,085 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setId
+2019-01-18 13:03:13,086 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'id' renamed to 'id'
+2019-01-18 13:03:13,092 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property id to model
+2019-01-18 13:03:13,094 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setId
+2019-01-18 13:03:13,097 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setId
+2019-01-18 13:03:13,097 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setId
+2019-01-18 13:03:13,104 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setId
+2019-01-18 13:03:13,105 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property firstName
+2019-01-18 13:03:13,109 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setFirstName
+2019-01-18 13:03:13,116 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'firstName' renamed to 'firstName'
+2019-01-18 13:03:13,117 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property firstName to model
+2019-01-18 13:03:13,123 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setFirstName
+2019-01-18 13:03:13,132 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setFirstName
+2019-01-18 13:03:13,134 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setFirstName
+2019-01-18 13:03:13,140 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setFirstName
+2019-01-18 13:03:13,141 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property lastName
+2019-01-18 13:03:13,142 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLastName
+2019-01-18 13:03:13,146 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'lastName' renamed to 'lastName'
+2019-01-18 13:03:13,146 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property lastName to model
+2019-01-18 13:03:13,153 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLastName
+2019-01-18 13:03:13,153 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLastName
+2019-01-18 13:03:13,154 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLastName
+2019-01-18 13:03:13,154 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setLastName
+2019-01-18 13:03:13,155 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property nationality
+2019-01-18 13:03:13,166 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setNationality
+2019-01-18 13:03:13,168 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'nationality' renamed to 'nationality'
+2019-01-18 13:03:13,168 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property nationality to model
+2019-01-18 13:03:13,175 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setNationality
+2019-01-18 13:03:13,176 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setNationality
+2019-01-18 13:03:13,179 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setNationality
+2019-01-18 13:03:13,180 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setNationality
+2019-01-18 13:03:13,187 DEBUG [localhost-startStop-1] DefaultModelProvider: Inferred 4 properties. Properties found firstName, id, lastName, nationality
+2019-01-18 13:03:13,187 DEBUG [localhost-startStop-1] ApiModelReader: Generated parameter model id: Author, name: Author, schema: {} models
+2019-01-18 13:03:13,188 DEBUG [localhost-startStop-1] ApiModelReader: Adding a new model with key Author
+2019-01-18 13:03:13,191 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: Void
+2019-01-18 13:03:13,192 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method createAuthor
+2019-01-18 13:03:13,200 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Ljava/lang/Void;
+2019-01-18 13:03:13,203 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |deleteAuthor|
+2019-01-18 13:03:13,210 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |deleteAuthor|
+2019-01-18 13:03:13,210 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |deleteAuthor|
+2019-01-18 13:03:13,212 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.lang.Void
+2019-01-18 13:03:13,220 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: Void
+2019-01-18 13:03:13,221 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method deleteAuthor
+2019-01-18 13:03:13,229 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Ljava/util/List<Lcom/greenfurniture/onlineorder/domain/Author;>;
+2019-01-18 13:03:13,230 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |getAllAuthors|
+2019-01-18 13:03:13,231 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |getAllAuthors|
+2019-01-18 13:03:13,237 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |getAllAuthors|
+2019-01-18 13:03:13,238 DEBUG [localhost-startStop-1] DefaultModelProvider: Skipping model of type Ljava/util/List<Lcom/greenfurniture/onlineorder/domain/Author;>; as its either a container type, map, enum or base type, or its already been handled
+2019-01-18 13:03:13,239 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.util.List<com.greenfurniture.onlineorder.domain.Author>
+2019-01-18 13:03:13,241 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Adding type for parameter Lcom/greenfurniture/onlineorder/domain/Author;
+2019-01-18 13:03:13,249 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Recursively resolving dependencies for parameter Lcom/greenfurniture/onlineorder/domain/Author;
+2019-01-18 13:03:13,251 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property id
+2019-01-18 13:03:13,253 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getId
+2019-01-18 13:03:13,253 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'id' renamed to 'id'
+2019-01-18 13:03:13,260 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property id to model
+2019-01-18 13:03:13,261 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getId
+2019-01-18 13:03:13,264 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getId
+2019-01-18 13:03:13,270 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getId
+2019-01-18 13:03:13,271 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getId
+2019-01-18 13:03:13,271 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property firstName
+2019-01-18 13:03:13,272 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getFirstName
+2019-01-18 13:03:13,274 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'firstName' renamed to 'firstName'
+2019-01-18 13:03:13,283 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property firstName to model
+2019-01-18 13:03:13,285 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getFirstName
+2019-01-18 13:03:13,292 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getFirstName
+2019-01-18 13:03:13,292 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getFirstName
+2019-01-18 13:03:13,292 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getFirstName
+2019-01-18 13:03:13,294 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property lastName
+2019-01-18 13:03:13,298 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastName
+2019-01-18 13:03:13,304 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'lastName' renamed to 'lastName'
+2019-01-18 13:03:13,304 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property lastName to model
+2019-01-18 13:03:13,308 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastName
+2019-01-18 13:03:13,321 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastName
+2019-01-18 13:03:13,323 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastName
+2019-01-18 13:03:13,332 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getLastName
+2019-01-18 13:03:13,334 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property nationality
+2019-01-18 13:03:13,340 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getNationality
+2019-01-18 13:03:13,341 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'nationality' renamed to 'nationality'
+2019-01-18 13:03:13,342 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property nationality to model
+2019-01-18 13:03:13,345 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getNationality
+2019-01-18 13:03:13,346 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getNationality
+2019-01-18 13:03:13,352 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getNationality
+2019-01-18 13:03:13,353 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped getter for member getNationality
+2019-01-18 13:03:13,354 DEBUG [localhost-startStop-1] DefaultModelProvider: Inferred 4 properties. Properties found firstName, id, lastName, nationality
+2019-01-18 13:03:13,357 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: List
+2019-01-18 13:03:13,357 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method getAllAuthors
+2019-01-18 13:03:13,365 DEBUG [localhost-startStop-1] SwaggerOperationResponseClassReader: Setting response class to:List
+2019-01-18 13:03:13,368 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Lcom/greenfurniture/onlineorder/domain/Author;
+2019-01-18 13:03:13,374 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |getOneAuthorById|
+2019-01-18 13:03:13,375 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |getOneAuthorById|
+2019-01-18 13:03:13,375 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |getOneAuthorById|
+2019-01-18 13:03:13,377 DEBUG [localhost-startStop-1] DefaultModelProvider: Inferred 4 properties. Properties found firstName, id, lastName, nationality
+2019-01-18 13:03:13,381 DEBUG [localhost-startStop-1] ApiModelReader: Generated parameter model id: Author, name: Author, schema: {} models
+2019-01-18 13:03:13,388 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: Author
+2019-01-18 13:03:13,388 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method getOneAuthorById
+2019-01-18 13:03:13,389 DEBUG [localhost-startStop-1] SwaggerOperationResponseClassReader: Setting response class to:Author
+2019-01-18 13:03:13,391 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Lcom/greenfurniture/onlineorder/domain/Author;
+2019-01-18 13:03:13,392 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |updateAuthor|
+2019-01-18 13:03:13,400 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding input parameter of type Lcom/greenfurniture/onlineorder/domain/Author;
+2019-01-18 13:03:13,403 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |updateAuthor|
+2019-01-18 13:03:13,411 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |updateAuthor|
+2019-01-18 13:03:13,417 DEBUG [localhost-startStop-1] ApiModelReader: Generated parameter model id: Author, name: Author, schema: {} models
+2019-01-18 13:03:13,418 DEBUG [localhost-startStop-1] ApiModelReader: Generated parameter model id: Author, name: Author, schema: {} models
+2019-01-18 13:03:13,425 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: Author
+2019-01-18 13:03:13,426 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method updateAuthor
+2019-01-18 13:03:13,430 DEBUG [localhost-startStop-1] SwaggerOperationResponseClassReader: Setting response class to:Author
+2019-01-18 13:03:13,432 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Ljava/lang/Object;
+2019-01-18 13:03:13,437 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |authorize|
+2019-01-18 13:03:13,438 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding input parameter of type Lcom/greenfurniture/onlineorder/dto/LoginDto;
+2019-01-18 13:03:13,440 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |authorize|
+2019-01-18 13:03:13,441 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |authorize|
+2019-01-18 13:03:13,451 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property username
+2019-01-18 13:03:13,452 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setUsername
+2019-01-18 13:03:13,459 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'username' renamed to 'username'
+2019-01-18 13:03:13,459 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property username to model
+2019-01-18 13:03:13,461 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setUsername
+2019-01-18 13:03:13,463 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setUsername
+2019-01-18 13:03:13,463 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setUsername
+2019-01-18 13:03:13,470 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setUsername
+2019-01-18 13:03:13,470 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property password
+2019-01-18 13:03:13,473 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setPassword
+2019-01-18 13:03:13,475 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'password' renamed to 'password'
+2019-01-18 13:03:13,483 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property password to model
+2019-01-18 13:03:13,485 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setPassword
+2019-01-18 13:03:13,491 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setPassword
+2019-01-18 13:03:13,492 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setPassword
+2019-01-18 13:03:13,493 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setPassword
+2019-01-18 13:03:13,496 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Reading property rememberMe
+2019-01-18 13:03:13,496 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setRememberMe
+2019-01-18 13:03:13,503 DEBUG [localhost-startStop-1] ObjectMapperBeanPropertyNamingStrategy: Name 'rememberMe' renamed to 'rememberMe'
+2019-01-18 13:03:13,504 DEBUG [localhost-startStop-1] OptimizedModelPropertiesProvider: Adding property rememberMe to model
+2019-01-18 13:03:13,505 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setRememberMe
+2019-01-18 13:03:13,508 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setRememberMe
+2019-01-18 13:03:13,508 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setRememberMe
+2019-01-18 13:03:13,521 DEBUG [localhost-startStop-1] BeanModelProperty: Evaluating unwrapped setter for member setRememberMe
+2019-01-18 13:03:13,523 DEBUG [localhost-startStop-1] DefaultModelProvider: Inferred 3 properties. Properties found password, rememberMe, username
+2019-01-18 13:03:13,524 DEBUG [localhost-startStop-1] ApiModelReader: Generated parameter model id: LoginDto, name: LoginDto, schema: {} models
+2019-01-18 13:03:13,532 DEBUG [localhost-startStop-1] ApiModelReader: Adding a new model with key LoginDto
+2019-01-18 13:03:13,535 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.lang.Object
+2019-01-18 13:03:13,536 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: object
+2019-01-18 13:03:13,544 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method authorize
+2019-01-18 13:03:13,546 DEBUG [localhost-startStop-1] SwaggerOperationResponseClassReader: Setting response class to:object
+2019-01-18 13:03:13,548 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Ljava/lang/Object;
+2019-01-18 13:03:13,553 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |createUser|
+2019-01-18 13:03:13,554 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding input parameter of type Lcom/greenfurniture/onlineorder/dto/ManagedUserDto;
+2019-01-18 13:03:13,557 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |createUser|
+2019-01-18 13:03:13,557 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |createUser|
+2019-01-18 13:03:13,566 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.lang.Object
+2019-01-18 13:03:13,568 DEBUG [localhost-startStop-1] ApiModelReader: Generated parameter model id: ManagedUserDto, name: ManagedUserDto, schema: {} models
+2019-01-18 13:03:13,568 DEBUG [localhost-startStop-1] ApiModelReader: Adding a new model with key ManagedUserDto
+2019-01-18 13:03:13,575 DEBUG [localhost-startStop-1] DefaultModelProvider: Skipping model of type Ljava/util/Set<Ljava/lang/String;>; as its either a container type, map, enum or base type, or its already been handled
+2019-01-18 13:03:13,577 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: object
+2019-01-18 13:03:13,580 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method createUser
+2019-01-18 13:03:13,581 DEBUG [localhost-startStop-1] SwaggerOperationResponseClassReader: Setting response class to:object
+2019-01-18 13:03:13,588 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Ljava/lang/Void;
+2019-01-18 13:03:13,590 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |deleteUser|
+2019-01-18 13:03:13,590 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |deleteUser|
+2019-01-18 13:03:13,600 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |deleteUser|
+2019-01-18 13:03:13,603 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.lang.Void
+2019-01-18 13:03:13,612 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: Void
+2019-01-18 13:03:13,616 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method deleteUser
+2019-01-18 13:03:13,617 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Ljava/util/List<Lcom/greenfurniture/onlineorder/dto/UserDto;>;
+2019-01-18 13:03:13,623 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |getAllUsers|
+2019-01-18 13:03:13,624 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |getAllUsers|
+2019-01-18 13:03:13,629 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |getAllUsers|
+2019-01-18 13:03:13,639 DEBUG [localhost-startStop-1] DefaultModelProvider: Skipping model of type Ljava/util/List<Lcom/greenfurniture/onlineorder/dto/UserDto;>; as its either a container type, map, enum or base type, or its already been handled
+2019-01-18 13:03:13,641 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.util.List<com.greenfurniture.onlineorder.dto.UserDto>
+2019-01-18 13:03:13,650 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Adding type for parameter Lcom/greenfurniture/onlineorder/dto/UserDto;
+2019-01-18 13:03:13,652 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Recursively resolving dependencies for parameter Lcom/greenfurniture/onlineorder/dto/UserDto;
+2019-01-18 13:03:13,652 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Adding type Ljava/util/Set<Ljava/lang/String;>; for parameter authorities
+2019-01-18 13:03:13,659 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Recursively resolving dependencies for collectionElement type Ljava/lang/String;
+2019-01-18 13:03:13,661 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Marking base type Ljava/lang/String; as seen
+2019-01-18 13:03:13,665 DEBUG [localhost-startStop-1] DefaultModelProvider: Inferred 11 properties. Properties found activated, authorities, createdBy, createdDate, email, firstName, id, lastModifiedBy, lastModifiedDate, lastName, login
+2019-01-18 13:03:13,671 DEBUG [localhost-startStop-1] DefaultModelProvider: Skipping model of type Ljava/util/Set<Ljava/lang/String;>; as its either a container type, map, enum or base type, or its already been handled
+2019-01-18 13:03:13,671 DEBUG [localhost-startStop-1] ApiModelReader: Adding a new model with key UserDto
+2019-01-18 13:03:13,672 DEBUG [localhost-startStop-1] ModelAttributeParameterExpander: Expanding parameter type: org.springframework.data.domain.Pageable
+2019-01-18 13:03:13,675 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: List
+2019-01-18 13:03:13,684 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method getAllUsers
+2019-01-18 13:03:13,686 DEBUG [localhost-startStop-1] SwaggerOperationResponseClassReader: Setting response class to:List
+2019-01-18 13:03:13,693 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Ljava/util/List<Ljava/lang/String;>;
+2019-01-18 13:03:13,696 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |getAuthorities|
+2019-01-18 13:03:13,696 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |getAuthorities|
+2019-01-18 13:03:13,702 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |getAuthorities|
+2019-01-18 13:03:13,703 DEBUG [localhost-startStop-1] DefaultModelProvider: Skipping model of type Ljava/util/List<Ljava/lang/String;>; as its either a container type, map, enum or base type, or its already been handled
+2019-01-18 13:03:13,708 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.util.List<java.lang.String>
+2019-01-18 13:03:13,716 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Adding type for parameter Ljava/lang/String;
+2019-01-18 13:03:13,723 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Recursively resolving dependencies for parameter Ljava/lang/String;
+2019-01-18 13:03:13,724 DEBUG [localhost-startStop-1] DefaultModelDependencyProvider: Marking base type Ljava/lang/String; as seen
+2019-01-18 13:03:13,733 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: List
+2019-01-18 13:03:13,735 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method getAuthorities
+2019-01-18 13:03:13,742 DEBUG [localhost-startStop-1] SwaggerOperationResponseClassReader: Setting response class to:List
+2019-01-18 13:03:13,744 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Ljava/lang/Object;
+2019-01-18 13:03:13,747 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |getUser|
+2019-01-18 13:03:13,748 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |getUser|
+2019-01-18 13:03:13,755 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |getUser|
+2019-01-18 13:03:13,756 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.lang.Object
+2019-01-18 13:03:13,759 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: object
+2019-01-18 13:03:13,767 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method getUser
+2019-01-18 13:03:13,768 DEBUG [localhost-startStop-1] SwaggerOperationResponseClassReader: Setting response class to:object
+2019-01-18 13:03:13,771 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Ljava/lang/Object;
+2019-01-18 13:03:13,779 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |updateUser|
+2019-01-18 13:03:13,782 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding input parameter of type Lcom/greenfurniture/onlineorder/dto/ManagedUserDto;
+2019-01-18 13:03:13,788 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |updateUser|
+2019-01-18 13:03:13,789 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |updateUser|
+2019-01-18 13:03:13,793 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.lang.Object
+2019-01-18 13:03:13,800 DEBUG [localhost-startStop-1] ApiModelReader: Generated parameter model id: ManagedUserDto, name: ManagedUserDto, schema: {} models
+2019-01-18 13:03:13,801 DEBUG [localhost-startStop-1] DefaultModelProvider: Skipping model of type Ljava/util/Set<Ljava/lang/String;>; as its either a container type, map, enum or base type, or its already been handled
+2019-01-18 13:03:13,805 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: object
+2019-01-18 13:03:13,815 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method updateUser
+2019-01-18 13:03:13,817 DEBUG [localhost-startStop-1] SwaggerOperationResponseClassReader: Setting response class to:object
+2019-01-18 13:03:13,825 DEBUG [localhost-startStop-1] OperationModelsProvider: Adding return parameter of type Ljava/lang/String;
+2019-01-18 13:03:13,826 DEBUG [localhost-startStop-1] OperationModelsProvider: Reading parameters models for handlerMethod |welcome|
+2019-01-18 13:03:13,829 DEBUG [localhost-startStop-1] OperationModelsProvider: Finished reading parameters models for handlerMethod |welcome|
+2019-01-18 13:03:13,840 DEBUG [localhost-startStop-1] SwaggerOperationModelsProvider: Reading parameters models for handlerMethod |welcome|
+2019-01-18 13:03:13,850 DEBUG [localhost-startStop-1] ApiModelReader: Did not find any parameter models for java.lang.String
+2019-01-18 13:03:13,853 DEBUG [localhost-startStop-1] OperationResponseClassReader: Setting spring response class to: string
+2019-01-18 13:03:13,853 DEBUG [localhost-startStop-1] OperationAuthReader: Authorization count 0 for method welcome
+2019-01-18 13:03:13,860 DEBUG [localhost-startStop-1] SwaggerOperationResponseClassReader: Setting response class to:string
+2019-01-18 13:03:42,581 DEBUG [http-nio-8080-exec-4] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /index.html
+2019-01-18 13:03:42,581 DEBUG [http-nio-8080-exec-4] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /index.html
+2019-01-18 13:03:42,583 DEBUG [http-nio-8080-exec-4] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/index.html]
+2019-01-18 13:03:42,617 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /library/bootstrap/dist/css/bootstrap.css
+2019-01-18 13:03:42,620 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /library/bootstrap/dist/css/bootstrap.css
+2019-01-18 13:03:42,621 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/library/bootstrap/dist/css/bootstrap.css]
+2019-01-18 13:03:42,630 DEBUG [http-nio-8080-exec-6] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /library/angular-loading-bar/build/loading-bar.css
+2019-01-18 13:03:42,631 DEBUG [http-nio-8080-exec-6] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /library/angular-loading-bar/build/loading-bar.css
+2019-01-18 13:03:42,632 DEBUG [http-nio-8080-exec-6] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/library/angular-loading-bar/build/loading-bar.css]
+2019-01-18 13:03:42,646 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /static/style/main.css
+2019-01-18 13:03:42,648 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /static/style/main.css
+2019-01-18 13:03:42,649 DEBUG [http-nio-8080-exec-8] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /library/jquery/dist/jquery.js
+2019-01-18 13:03:42,653 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/static/style/main.css]
+2019-01-18 13:03:42,656 DEBUG [http-nio-8080-exec-8] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /library/jquery/dist/jquery.js
+2019-01-18 13:03:42,671 DEBUG [http-nio-8080-exec-8] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/library/jquery/dist/jquery.js]
+2019-01-18 13:03:42,675 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /library/json3/lib/json3.js
+2019-01-18 13:03:42,677 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /library/json3/lib/json3.js
+2019-01-18 13:03:42,679 DEBUG [http-nio-8080-exec-10] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /library/messageformat/messageformat.js
+2019-01-18 13:03:42,679 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/library/json3/lib/json3.js]
+2019-01-18 13:03:42,684 DEBUG [http-nio-8080-exec-10] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /library/messageformat/messageformat.js
+2019-01-18 13:03:42,692 DEBUG [http-nio-8080-exec-10] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/library/messageformat/messageformat.js]
+2019-01-18 13:03:42,710 DEBUG [http-nio-8080-exec-2] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /library/angular-cache-buster/angular-cache-buster.js
+2019-01-18 13:03:42,710 DEBUG [http-nio-8080-exec-2] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /library/angular-cache-buster/angular-cache-buster.js
+2019-01-18 13:03:42,711 DEBUG [http-nio-8080-exec-2] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/library/angular-cache-buster/angular-cache-buster.js]
+2019-01-18 13:03:42,721 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /library/angular-loading-bar/build/loading-bar.js
+2019-01-18 13:03:42,731 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /library/angular-loading-bar/build/loading-bar.js
+2019-01-18 13:03:42,732 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/library/angular-loading-bar/build/loading-bar.js]
+2019-01-18 13:03:42,725 DEBUG [http-nio-8080-exec-1] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /library/angular-bootstrap/ui-bootstrap-tpls.js
+2019-01-18 13:03:42,745 DEBUG [http-nio-8080-exec-1] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /library/angular-bootstrap/ui-bootstrap-tpls.js
+2019-01-18 13:03:42,753 DEBUG [http-nio-8080-exec-1] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/library/angular-bootstrap/ui-bootstrap-tpls.js]
+2019-01-18 13:03:42,725 DEBUG [http-nio-8080-exec-4] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /library/angular-ui-router/release/angular-ui-router.js
+2019-01-18 13:03:42,763 DEBUG [http-nio-8080-exec-4] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /library/angular-ui-router/release/angular-ui-router.js
+2019-01-18 13:03:42,727 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /library/bootstrap-ui-datetime-picker/dist/datetime-picker.js
+2019-01-18 13:03:42,780 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /library/bootstrap-ui-datetime-picker/dist/datetime-picker.js
+2019-01-18 13:03:42,734 DEBUG [http-nio-8080-exec-6] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /library/ng-file-upload/ng-file-upload.js
+2019-01-18 13:03:42,752 DEBUG [http-nio-8080-exec-2] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /library/ngInfiniteScroll/build/ng-infinite-scroll.js
+2019-01-18 13:03:42,802 DEBUG [http-nio-8080-exec-2] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /library/ngInfiniteScroll/build/ng-infinite-scroll.js
+2019-01-18 13:03:42,765 DEBUG [http-nio-8080-exec-8] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /library/ngstorage/ngStorage.js
+2019-01-18 13:03:42,771 DEBUG [http-nio-8080-exec-4] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/library/angular-ui-router/release/angular-ui-router.js]
+2019-01-18 13:03:42,785 DEBUG [http-nio-8080-exec-3] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/green-furniture.initial.module.js
+2019-01-18 13:03:42,789 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/library/bootstrap-ui-datetime-picker/dist/datetime-picker.js]
+2019-01-18 13:03:42,793 DEBUG [http-nio-8080-exec-6] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /library/ng-file-upload/ng-file-upload.js
+2019-01-18 13:03:42,831 DEBUG [http-nio-8080-exec-6] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/library/ng-file-upload/ng-file-upload.js]
+2019-01-18 13:03:42,839 DEBUG [http-nio-8080-exec-10] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/user/user.service.js
+2019-01-18 13:03:42,850 DEBUG [http-nio-8080-exec-10] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/user/user.service.js
+2019-01-18 13:03:42,807 DEBUG [http-nio-8080-exec-2] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/library/ngInfiniteScroll/build/ng-infinite-scroll.js]
+2019-01-18 13:03:42,808 DEBUG [http-nio-8080-exec-8] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /library/ngstorage/ngStorage.js
+2019-01-18 13:03:42,822 DEBUG [http-nio-8080-exec-3] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/green-furniture.initial.module.js
+2019-01-18 13:03:42,839 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/auth/register.service.js
+2019-01-18 13:03:42,851 DEBUG [http-nio-8080-exec-10] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/user/user.service.js]
+2019-01-18 13:03:42,862 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/auth/principal.service.js
+2019-01-18 13:03:42,863 DEBUG [http-nio-8080-exec-8] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/library/ngstorage/ngStorage.js]
+2019-01-18 13:03:42,872 DEBUG [http-nio-8080-exec-1] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/auth/password.service.js
+2019-01-18 13:03:42,874 DEBUG [http-nio-8080-exec-3] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/green-furniture.initial.module.js]
+2019-01-18 13:03:42,876 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/auth/register.service.js
+2019-01-18 13:03:42,888 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/auth/principal.service.js
+2019-01-18 13:03:42,892 DEBUG [http-nio-8080-exec-4] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/directive/has-authority.directive.js
+2019-01-18 13:03:42,897 DEBUG [http-nio-8080-exec-1] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/auth/password.service.js
+2019-01-18 13:03:42,901 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/auth/register.service.js]
+2019-01-18 13:03:42,902 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/directive/has-any-authority.directive.js
+2019-01-18 13:03:42,929 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/directive/has-any-authority.directive.js
+2019-01-18 13:03:42,908 DEBUG [http-nio-8080-exec-6] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/auth/auth.service.js
+2019-01-18 13:03:42,912 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/auth/principal.service.js]
+2019-01-18 13:03:42,915 DEBUG [http-nio-8080-exec-4] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/directive/has-authority.directive.js
+2019-01-18 13:03:42,924 DEBUG [http-nio-8080-exec-1] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/auth/password.service.js]
+2019-01-18 13:03:42,937 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/directive/has-any-authority.directive.js]
+2019-01-18 13:03:42,938 DEBUG [http-nio-8080-exec-2] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/auth/auth.jwt.service.js
+2019-01-18 13:03:42,971 DEBUG [http-nio-8080-exec-2] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/auth/auth.jwt.service.js
+2019-01-18 13:03:42,943 DEBUG [http-nio-8080-exec-6] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/auth/auth.service.js
+2019-01-18 13:03:42,952 DEBUG [http-nio-8080-exec-4] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/directive/has-authority.directive.js]
+2019-01-18 13:03:42,963 DEBUG [http-nio-8080-exec-10] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/auth/account.service.js
+2019-01-18 13:03:42,980 DEBUG [http-nio-8080-exec-10] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/auth/account.service.js
+2019-01-18 13:03:42,970 DEBUG [http-nio-8080-exec-8] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/navbar/navbar.controller.js
+2019-01-18 13:03:42,979 DEBUG [http-nio-8080-exec-2] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/auth/auth.jwt.service.js]
+2019-01-18 13:03:42,979 DEBUG [http-nio-8080-exec-6] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/auth/auth.service.js]
+2019-01-18 13:03:42,983 DEBUG [http-nio-8080-exec-10] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/auth/account.service.js]
+2019-01-18 13:03:42,984 DEBUG [http-nio-8080-exec-8] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/navbar/navbar.controller.js
+2019-01-18 13:03:42,991 DEBUG [http-nio-8080-exec-3] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/error/error.state.js
+2019-01-18 13:03:42,992 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/home/home.state.js
+2019-01-18 13:03:42,999 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/home/home.controller.js
+2019-01-18 13:03:43,000 DEBUG [http-nio-8080-exec-8] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/navbar/navbar.controller.js]
+2019-01-18 13:03:43,001 DEBUG [http-nio-8080-exec-1] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/util/truncate-words.filter.js
+2019-01-18 13:03:43,010 DEBUG [http-nio-8080-exec-3] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/error/error.state.js
+2019-01-18 13:03:43,013 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/util/truncate-characters.filter.js
+2019-01-18 13:03:43,015 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/home/home.state.js
+2019-01-18 13:03:43,015 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/home/home.controller.js
+2019-01-18 13:03:43,029 DEBUG [http-nio-8080-exec-1] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/util/truncate-words.filter.js
+2019-01-18 13:03:43,033 DEBUG [http-nio-8080-exec-4] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/util/parse-links.service.js
+2019-01-18 13:03:43,035 DEBUG [http-nio-8080-exec-3] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/error/error.state.js]
+2019-01-18 13:03:43,042 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/util/truncate-characters.filter.js
+2019-01-18 13:03:43,042 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/home/home.state.js]
+2019-01-18 13:03:43,048 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/home/home.controller.js]
+2019-01-18 13:03:43,050 DEBUG [http-nio-8080-exec-1] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/util/truncate-words.filter.js]
+2019-01-18 13:03:43,062 DEBUG [http-nio-8080-exec-4] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/util/parse-links.service.js
+2019-01-18 13:03:43,070 DEBUG [http-nio-8080-exec-2] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/util/pagination-util.service.js
+2019-01-18 13:03:43,072 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/util/truncate-characters.filter.js]
+2019-01-18 13:03:43,077 DEBUG [http-nio-8080-exec-6] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/util/item-count.directive.js
+2019-01-18 13:03:43,081 DEBUG [http-nio-8080-exec-10] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/util/date-util.service.js
+2019-01-18 13:03:43,082 DEBUG [http-nio-8080-exec-4] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/util/parse-links.service.js]
+2019-01-18 13:03:43,083 DEBUG [http-nio-8080-exec-2] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/util/pagination-util.service.js
+2019-01-18 13:03:43,089 DEBUG [http-nio-8080-exec-8] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/util/data-util.service.js
+2019-01-18 13:03:43,093 DEBUG [http-nio-8080-exec-6] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/util/item-count.directive.js
+2019-01-18 13:03:43,094 DEBUG [http-nio-8080-exec-10] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/util/date-util.service.js
+2019-01-18 13:03:43,096 DEBUG [http-nio-8080-exec-2] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/util/pagination-util.service.js]
+2019-01-18 13:03:43,096 DEBUG [http-nio-8080-exec-8] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/util/data-util.service.js
+2019-01-18 13:03:43,097 DEBUG [http-nio-8080-exec-6] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/util/item-count.directive.js]
+2019-01-18 13:03:43,097 DEBUG [http-nio-8080-exec-3] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/util/capitalize.filter.js
+2019-01-18 13:03:43,101 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/util/base64.service.js
+2019-01-18 13:03:43,107 DEBUG [http-nio-8080-exec-10] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/util/date-util.service.js]
+2019-01-18 13:03:43,110 DEBUG [http-nio-8080-exec-8] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/util/data-util.service.js]
+2019-01-18 13:03:43,111 DEBUG [http-nio-8080-exec-3] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/util/capitalize.filter.js
+2019-01-18 13:03:43,112 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/util/base64.service.js
+2019-01-18 13:03:43,114 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/login/login.service.js
+2019-01-18 13:03:43,115 DEBUG [http-nio-8080-exec-3] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/util/capitalize.filter.js]
+2019-01-18 13:03:43,116 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/util/base64.service.js]
+2019-01-18 13:03:43,116 DEBUG [http-nio-8080-exec-1] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/login/login.controller.js
+2019-01-18 13:03:43,123 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/directive/show-validation.directive.js
+2019-01-18 13:03:43,123 DEBUG [http-nio-8080-exec-4] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/util/minbytes.directive.js
+2019-01-18 13:03:43,125 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/login/login.service.js
+2019-01-18 13:03:43,129 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/login/login.service.js]
+2019-01-18 13:03:43,127 DEBUG [http-nio-8080-exec-1] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/login/login.controller.js
+2019-01-18 13:03:43,127 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/directive/show-validation.directive.js
+2019-01-18 13:03:43,132 DEBUG [http-nio-8080-exec-2] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/util/maxbytes.directive.js
+2019-01-18 13:03:43,128 DEBUG [http-nio-8080-exec-4] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/util/minbytes.directive.js
+2019-01-18 13:03:43,132 DEBUG [http-nio-8080-exec-1] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/login/login.controller.js]
+2019-01-18 13:03:43,132 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/directive/show-validation.directive.js]
+2019-01-18 13:03:43,134 DEBUG [http-nio-8080-exec-2] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/util/maxbytes.directive.js
+2019-01-18 13:03:43,136 DEBUG [http-nio-8080-exec-6] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/alert/alert-error.directive.js
+2019-01-18 13:03:43,142 DEBUG [http-nio-8080-exec-10] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/alert/alert.service.js
+2019-01-18 13:03:43,150 DEBUG [http-nio-8080-exec-10] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/alert/alert.service.js
+2019-01-18 13:03:43,142 DEBUG [http-nio-8080-exec-4] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/util/minbytes.directive.js]
+2019-01-18 13:03:43,148 DEBUG [http-nio-8080-exec-2] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/util/maxbytes.directive.js]
+2019-01-18 13:03:43,149 DEBUG [http-nio-8080-exec-6] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/alert/alert-error.directive.js
+2019-01-18 13:03:43,150 DEBUG [http-nio-8080-exec-10] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/alert/alert.service.js]
+2019-01-18 13:03:43,161 DEBUG [http-nio-8080-exec-8] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/alert/alert.directive.js
+2019-01-18 13:03:43,162 DEBUG [http-nio-8080-exec-3] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/blocks/interceptor/notification.interceptor.js
+2019-01-18 13:03:43,164 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/blocks/interceptor/errorhandler.interceptor.js
+2019-01-18 13:03:43,168 DEBUG [http-nio-8080-exec-6] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/alert/alert-error.directive.js]
+2019-01-18 13:03:43,170 DEBUG [http-nio-8080-exec-8] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/alert/alert.directive.js
+2019-01-18 13:03:43,170 DEBUG [http-nio-8080-exec-3] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/blocks/interceptor/notification.interceptor.js
+2019-01-18 13:03:43,176 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/blocks/interceptor/errorhandler.interceptor.js
+2019-01-18 13:03:43,177 DEBUG [http-nio-8080-exec-1] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/blocks/interceptor/auth.interceptor.js
+2019-01-18 13:03:43,177 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/blocks/interceptor/auth-expired.interceptor.js
+2019-01-18 13:03:43,183 DEBUG [http-nio-8080-exec-8] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/alert/alert.directive.js]
+2019-01-18 13:03:43,183 DEBUG [http-nio-8080-exec-3] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/blocks/interceptor/notification.interceptor.js]
+2019-01-18 13:03:43,184 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/blocks/interceptor/errorhandler.interceptor.js]
+2019-01-18 13:03:43,184 DEBUG [http-nio-8080-exec-1] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/blocks/interceptor/auth.interceptor.js
+2019-01-18 13:03:43,198 DEBUG [http-nio-8080-exec-1] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/blocks/interceptor/auth.interceptor.js]
+2019-01-18 13:03:43,190 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/blocks/handlers/state.handler.js
+2019-01-18 13:03:43,211 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/blocks/handlers/state.handler.js
+2019-01-18 13:03:43,195 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/blocks/interceptor/auth-expired.interceptor.js
+2019-01-18 13:03:43,213 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/blocks/interceptor/auth-expired.interceptor.js]
+2019-01-18 13:03:43,211 DEBUG [http-nio-8080-exec-4] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/blocks/config/localstorage.config.js
+2019-01-18 13:03:43,215 DEBUG [http-nio-8080-exec-4] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/blocks/config/localstorage.config.js
+2019-01-18 13:03:43,212 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/blocks/config/http.config.js
+2019-01-18 13:03:43,217 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/blocks/config/http.config.js
+2019-01-18 13:03:43,212 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/blocks/handlers/state.handler.js]
+2019-01-18 13:03:43,214 DEBUG [http-nio-8080-exec-1] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/blocks/config/compile.config.js
+2019-01-18 13:03:43,216 DEBUG [http-nio-8080-exec-4] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/blocks/config/localstorage.config.js]
+2019-01-18 13:03:43,219 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/blocks/config/http.config.js]
+2019-01-18 13:03:43,221 DEBUG [http-nio-8080-exec-6] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/blocks/config/alert.config.js
+2019-01-18 13:03:43,230 DEBUG [http-nio-8080-exec-1] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/blocks/config/compile.config.js
+2019-01-18 13:03:43,231 DEBUG [http-nio-8080-exec-3] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/green-furniture.abstract-state.js
+2019-01-18 13:03:43,242 DEBUG [http-nio-8080-exec-6] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/blocks/config/alert.config.js
+2019-01-18 13:03:43,245 DEBUG [http-nio-8080-exec-1] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/blocks/config/compile.config.js]
+2019-01-18 13:03:43,246 DEBUG [http-nio-8080-exec-8] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/admin/admin.state.js
+2019-01-18 13:03:43,247 DEBUG [http-nio-8080-exec-3] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/green-furniture.abstract-state.js
+2019-01-18 13:03:43,248 DEBUG [http-nio-8080-exec-2] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/register/register.state.js
+2019-01-18 13:03:43,248 DEBUG [http-nio-8080-exec-6] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/blocks/config/alert.config.js]
+2019-01-18 13:03:43,249 DEBUG [http-nio-8080-exec-8] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/admin/admin.state.js
+2019-01-18 13:03:43,258 DEBUG [http-nio-8080-exec-10] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/register/register.controller.js
+2019-01-18 13:03:43,259 DEBUG [http-nio-8080-exec-3] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/green-furniture.abstract-state.js]
+2019-01-18 13:03:43,260 DEBUG [http-nio-8080-exec-2] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/register/register.state.js
+2019-01-18 13:03:43,267 DEBUG [http-nio-8080-exec-8] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/admin/admin.state.js]
+2019-01-18 13:03:43,267 DEBUG [http-nio-8080-exec-10] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/register/register.controller.js
+2019-01-18 13:03:43,275 DEBUG [http-nio-8080-exec-2] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/register/register.state.js]
+2019-01-18 13:03:43,275 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/directive/password-strength-bar.directive.js
+2019-01-18 13:03:43,295 DEBUG [http-nio-8080-exec-4] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/password/password.controller.js
+2019-01-18 13:03:43,282 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/password/password.state.js
+2019-01-18 13:03:43,283 DEBUG [http-nio-8080-exec-10] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/register/register.controller.js]
+2019-01-18 13:03:43,295 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/directive/password-strength-bar.directive.js
+2019-01-18 13:03:43,312 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/directive/password-strength-bar.directive.js]
+2019-01-18 13:03:43,296 DEBUG [http-nio-8080-exec-4] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/password/password.controller.js
+2019-01-18 13:03:43,300 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/password/password.state.js
+2019-01-18 13:03:43,302 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/account/account.state.js
+2019-01-18 13:03:43,317 DEBUG [http-nio-8080-exec-1] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/entity/entity.abstract-state.js
+2019-01-18 13:03:43,320 DEBUG [http-nio-8080-exec-4] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/password/password.controller.js]
+2019-01-18 13:03:43,326 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/password/password.state.js]
+2019-01-18 13:03:43,327 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/account/account.state.js
+2019-01-18 13:03:43,329 DEBUG [http-nio-8080-exec-6] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/author/author.service.js
+2019-01-18 13:03:43,333 DEBUG [http-nio-8080-exec-1] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/entity/entity.abstract-state.js
+2019-01-18 13:03:43,343 DEBUG [http-nio-8080-exec-3] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/author/author.state.js
+2019-01-18 13:03:43,349 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/account/account.state.js]
+2019-01-18 13:03:43,350 DEBUG [http-nio-8080-exec-8] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/author/author.controller.js
+2019-01-18 13:03:43,354 DEBUG [http-nio-8080-exec-6] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/author/author.service.js
+2019-01-18 13:03:43,365 DEBUG [http-nio-8080-exec-1] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/entity/entity.abstract-state.js]
+2019-01-18 13:03:43,368 DEBUG [http-nio-8080-exec-3] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/author/author.state.js
+2019-01-18 13:03:43,381 DEBUG [http-nio-8080-exec-8] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/author/author.controller.js
+2019-01-18 13:03:43,382 DEBUG [http-nio-8080-exec-6] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/author/author.service.js]
+2019-01-18 13:03:43,384 DEBUG [http-nio-8080-exec-2] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/author/author-dialog.controller.js
+2019-01-18 13:03:43,402 DEBUG [http-nio-8080-exec-2] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/author/author-dialog.controller.js
+2019-01-18 13:03:43,389 DEBUG [http-nio-8080-exec-3] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/author/author.state.js]
+2019-01-18 13:03:43,391 DEBUG [http-nio-8080-exec-8] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/author/author.controller.js]
+2019-01-18 13:03:43,396 DEBUG [http-nio-8080-exec-10] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/author/author-detail.controller.js
+2019-01-18 13:03:43,404 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/author/author-delete-dialog.controller.js
+2019-01-18 13:03:43,404 DEBUG [http-nio-8080-exec-2] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/author/author-dialog.controller.js]
+2019-01-18 13:03:43,415 DEBUG [http-nio-8080-exec-10] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/author/author-detail.controller.js
+2019-01-18 13:03:43,416 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/author/author-delete-dialog.controller.js
+2019-01-18 13:03:43,427 DEBUG [http-nio-8080-exec-10] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/author/author-detail.controller.js]
+2019-01-18 13:03:43,430 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/author/author-delete-dialog.controller.js]
+2019-01-18 13:04:12,042 DEBUG [http-nio-8080-exec-4] Http401UnauthorizedEntryPoint: Pre-authenticated entry point called. Rejecting access
+2019-01-18 13:04:12,055 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/navbar/navbar.html
+2019-01-18 13:04:12,055 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/navbar/navbar.html
+2019-01-18 13:04:12,056 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/navbar/navbar.html]
+2019-01-18 13:04:12,065 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/home/home.html
+2019-01-18 13:04:12,065 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/home/home.html
+2019-01-18 13:04:12,065 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/home/home.html]
+2019-01-18 13:04:12,100 DEBUG [http-nio-8080-exec-1] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /library/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2
+2019-01-18 13:04:12,101 DEBUG [http-nio-8080-exec-1] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /library/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2
+2019-01-18 13:04:12,101 DEBUG [http-nio-8080-exec-1] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/library/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2]
+2019-01-18 13:05:51,479 DEBUG [http-nio-8080-exec-6] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/login/login.html
+2019-01-18 13:05:51,479 DEBUG [http-nio-8080-exec-6] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/login/login.html
+2019-01-18 13:05:51,480 DEBUG [http-nio-8080-exec-6] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/login/login.html]
+2019-01-18 13:06:00,255 DEBUG [http-nio-8080-exec-8] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /api/rest/authenticate
+2019-01-18 13:06:00,255 DEBUG [http-nio-8080-exec-8] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /api/rest/authenticate
+2019-01-18 13:06:00,258 DEBUG [http-nio-8080-exec-8] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/api/rest/authenticate]
+2019-01-18 13:06:00,468 DEBUG [http-nio-8080-exec-8] LoggingAspect: Enter: com.greenfurniture.onlineorder.web.rest.UserAuthenticationRestController.authorize() with argument[s] = [LoginDto{username='admin', rememberMe=false}, org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterResponse@6d5745ba]
+2019-01-18 13:06:00,562 DEBUG [http-nio-8080-exec-8] DomainUserDetailsService: Authenticating admin
+2019-01-18 13:06:00,922 DEBUG [http-nio-8080-exec-8] SQL: select user0_.id as id1_2_0_, authority2_.name as name1_1_1_, user0_.created_by as created_2_2_0_, user0_.created_date as created_3_2_0_, user0_.last_modified_by as last_mod4_2_0_, user0_.last_modified_date as last_mod5_2_0_, user0_.activated as activate6_2_0_, user0_.activation_key as activati7_2_0_, user0_.email as email8_2_0_, user0_.first_name as first_na9_2_0_, user0_.last_name as last_na10_2_0_, user0_.login as login11_2_0_, user0_.password as passwor12_2_0_, user0_.reset_date as reset_d13_2_0_, user0_.reset_key as reset_k14_2_0_, authoritie1_.user_id as user_id1_3_0__, authoritie1_.authority_name as authorit2_3_0__ from user user0_ left outer join user_authority authoritie1_ on user0_.id=authoritie1_.user_id left outer join authority authority2_ on authoritie1_.authority_name=authority2_.name where user0_.login=?
+2019-01-18 13:06:01,248 DEBUG [http-nio-8080-exec-8] LoggingAspect: Exit: com.greenfurniture.onlineorder.web.rest.UserAuthenticationRestController.authorize() with result = <200 OK,com.greenfurniture.onlineorder.web.rest.UserAuthenticationRestController$JWTToken@36720e51,{}>
+2019-01-18 13:06:01,338 DEBUG [http-nio-8080-exec-3] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /api/rest/account
+2019-01-18 13:06:01,339 DEBUG [http-nio-8080-exec-3] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /api/rest/account
+2019-01-18 13:06:01,342 DEBUG [http-nio-8080-exec-3] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/api/rest/account]
+2019-01-18 13:06:01,348 DEBUG [http-nio-8080-exec-3] LoggingAspect: Enter: com.greenfurniture.onlineorder.web.rest.AccountRestController.getAccount() with argument[s] = []
+2019-01-18 13:06:01,360 DEBUG [http-nio-8080-exec-3] LoggingAspect: Enter: com.greenfurniture.onlineorder.service.UserService.getUserWithAuthorities() with argument[s] = []
+2019-01-18 13:06:01,379 DEBUG [http-nio-8080-exec-3] SQL: select user0_.id as id1_2_0_, authority2_.name as name1_1_1_, user0_.created_by as created_2_2_0_, user0_.created_date as created_3_2_0_, user0_.last_modified_by as last_mod4_2_0_, user0_.last_modified_date as last_mod5_2_0_, user0_.activated as activate6_2_0_, user0_.activation_key as activati7_2_0_, user0_.email as email8_2_0_, user0_.first_name as first_na9_2_0_, user0_.last_name as last_na10_2_0_, user0_.login as login11_2_0_, user0_.password as passwor12_2_0_, user0_.reset_date as reset_d13_2_0_, user0_.reset_key as reset_k14_2_0_, authoritie1_.user_id as user_id1_3_0__, authoritie1_.authority_name as authorit2_3_0__ from user user0_ left outer join user_authority authoritie1_ on user0_.id=authoritie1_.user_id left outer join authority authority2_ on authoritie1_.authority_name=authority2_.name where user0_.login=?
+2019-01-18 13:06:01,393 DEBUG [http-nio-8080-exec-3] LoggingAspect: Exit: com.greenfurniture.onlineorder.service.UserService.getUserWithAuthorities() with result = User{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', activated='true', activationKey='null'}
+2019-01-18 13:06:01,394 DEBUG [http-nio-8080-exec-3] LoggingAspect: Exit: com.greenfurniture.onlineorder.web.rest.AccountRestController.getAccount() with result = <200 OK,UserDto{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', activated=true, createdBy=system, createdDate=2019-01-16T21:47:15Z, lastModifiedBy='system', lastModifiedDate=null, authorities=[ROLE_USER, ROLE_ADMIN]},{}>
+2019-01-18 13:06:05,970 DEBUG [http-nio-8080-exec-2] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/author/author.html
+2019-01-18 13:06:05,970 DEBUG [http-nio-8080-exec-2] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/author/author.html
+2019-01-18 13:06:05,973 DEBUG [http-nio-8080-exec-2] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/author/author.html]
+2019-01-18 13:06:06,002 DEBUG [http-nio-8080-exec-10] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /api/rest/authors
+2019-01-18 13:06:06,003 DEBUG [http-nio-8080-exec-10] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /api/rest/authors
+2019-01-18 13:06:06,006 DEBUG [http-nio-8080-exec-10] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/api/rest/authors]
+2019-01-18 13:06:06,017 DEBUG [http-nio-8080-exec-10] LoggingAspect: Enter: com.greenfurniture.onlineorder.web.rest.AuthorRestController.getAllAuthors() with argument[s] = []
+2019-01-18 13:06:06,035 DEBUG [http-nio-8080-exec-10] AuthorRestController: REST request to get all Authors
+2019-01-18 13:06:06,093 DEBUG [http-nio-8080-exec-10] SQL: select author0_.id as id1_0_, author0_.first_name as first_na2_0_, author0_.last_name as last_nam3_0_, author0_.nationality as national4_0_ from author_example_table author0_
+2019-01-18 13:06:06,124 DEBUG [http-nio-8080-exec-10] LoggingAspect: Exit: com.greenfurniture.onlineorder.web.rest.AuthorRestController.getAllAuthors() with result = <200 OK,[],{}>
+2019-01-18 13:06:07,346 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/author/author-dialog.html
+2019-01-18 13:06:07,348 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/author/author-dialog.html
+2019-01-18 13:06:07,357 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/author/author-dialog.html]
+2019-01-18 13:06:27,401 DEBUG [http-nio-8080-exec-4] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /api/rest/authors
+2019-01-18 13:06:27,402 DEBUG [http-nio-8080-exec-4] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /api/rest/authors
+2019-01-18 13:06:27,406 DEBUG [http-nio-8080-exec-4] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/api/rest/authors]
+2019-01-18 13:06:27,412 DEBUG [http-nio-8080-exec-4] LoggingAspect: Enter: com.greenfurniture.onlineorder.web.rest.AuthorRestController.createAuthor() with argument[s] = [Author [id=null, firstName=JIGAR, lastName=DALWADI, nationality=United States]]
+2019-01-18 13:06:27,417 DEBUG [http-nio-8080-exec-4] AuthorRestController: REST request to save Author : Author [id=null, firstName=JIGAR, lastName=DALWADI, nationality=United States]
+2019-01-18 13:06:27,471 DEBUG [http-nio-8080-exec-4] SQL: insert into author_example_table (first_name, last_name, nationality) values (?, ?, ?)
+2019-01-18 13:06:27,526 DEBUG [http-nio-8080-exec-4] LoggingAspect: Exit: com.greenfurniture.onlineorder.web.rest.AuthorRestController.createAuthor() with result = <201 Created,{Location=[/api/rest/authors/1]}>
+2019-01-18 13:06:27,551 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /api/rest/authors
+2019-01-18 13:06:27,551 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /api/rest/authors
+2019-01-18 13:06:27,554 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/api/rest/authors]
+2019-01-18 13:06:27,565 DEBUG [http-nio-8080-exec-5] LoggingAspect: Enter: com.greenfurniture.onlineorder.web.rest.AuthorRestController.getAllAuthors() with argument[s] = []
+2019-01-18 13:06:27,568 DEBUG [http-nio-8080-exec-5] AuthorRestController: REST request to get all Authors
+2019-01-18 13:06:27,594 DEBUG [http-nio-8080-exec-5] SQL: select author0_.id as id1_0_, author0_.first_name as first_na2_0_, author0_.last_name as last_nam3_0_, author0_.nationality as national4_0_ from author_example_table author0_
+2019-01-18 13:06:27,608 DEBUG [http-nio-8080-exec-5] LoggingAspect: Exit: com.greenfurniture.onlineorder.web.rest.AuthorRestController.getAllAuthors() with result = <200 OK,[Author [id=1, firstName=JIGAR, lastName=DALWADI, nationality=United States]],{}>
+2019-01-18 13:06:48,273 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /api/rest/authors
+2019-01-18 13:06:48,273 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /api/rest/authors
+2019-01-18 13:06:48,282 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/api/rest/authors]
+2019-01-18 13:06:48,291 DEBUG [http-nio-8080-exec-7] LoggingAspect: Enter: com.greenfurniture.onlineorder.web.rest.AuthorRestController.createAuthor() with argument[s] = [Author [id=null, firstName=John, lastName=Doe, nationality=USA]]
+2019-01-18 13:06:48,298 DEBUG [http-nio-8080-exec-7] AuthorRestController: REST request to save Author : Author [id=null, firstName=John, lastName=Doe, nationality=USA]
+2019-01-18 13:06:48,300 DEBUG [http-nio-8080-exec-7] SQL: insert into author_example_table (first_name, last_name, nationality) values (?, ?, ?)
+2019-01-18 13:06:48,351 DEBUG [http-nio-8080-exec-7] LoggingAspect: Exit: com.greenfurniture.onlineorder.web.rest.AuthorRestController.createAuthor() with result = <201 Created,{Location=[/api/rest/authors/2]}>
+2019-01-18 13:06:48,374 DEBUG [http-nio-8080-exec-1] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /api/rest/authors
+2019-01-18 13:06:48,374 DEBUG [http-nio-8080-exec-1] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /api/rest/authors
+2019-01-18 13:06:48,378 DEBUG [http-nio-8080-exec-1] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/api/rest/authors]
+2019-01-18 13:06:48,387 DEBUG [http-nio-8080-exec-1] LoggingAspect: Enter: com.greenfurniture.onlineorder.web.rest.AuthorRestController.getAllAuthors() with argument[s] = []
+2019-01-18 13:06:48,393 DEBUG [http-nio-8080-exec-1] AuthorRestController: REST request to get all Authors
+2019-01-18 13:06:48,404 DEBUG [http-nio-8080-exec-1] SQL: select author0_.id as id1_0_, author0_.first_name as first_na2_0_, author0_.last_name as last_nam3_0_, author0_.nationality as national4_0_ from author_example_table author0_
+2019-01-18 13:06:48,420 DEBUG [http-nio-8080-exec-1] LoggingAspect: Exit: com.greenfurniture.onlineorder.web.rest.AuthorRestController.getAllAuthors() with result = <200 OK,[Author [id=1, firstName=JIGAR, lastName=DALWADI, nationality=United States], Author [id=2, firstName=John, lastName=Doe, nationality=USA]],{}>
+2019-01-18 13:07:17,588 DEBUG [http-nio-8080-exec-6] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/author/author-detail.html
+2019-01-18 13:07:17,588 DEBUG [http-nio-8080-exec-6] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/author/author-detail.html
+2019-01-18 13:07:17,591 DEBUG [http-nio-8080-exec-6] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/author/author-detail.html]
+2019-01-18 13:07:17,630 DEBUG [http-nio-8080-exec-8] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /api/rest/authors/1
+2019-01-18 13:07:17,640 DEBUG [http-nio-8080-exec-8] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /api/rest/authors/1
+2019-01-18 13:07:17,648 DEBUG [http-nio-8080-exec-8] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/api/rest/authors/1]
+2019-01-18 13:07:17,679 DEBUG [http-nio-8080-exec-8] LoggingAspect: Enter: com.greenfurniture.onlineorder.web.rest.AuthorRestController.getOneAuthorById() with argument[s] = [1]
+2019-01-18 13:07:17,679 DEBUG [http-nio-8080-exec-8] AuthorRestController: REST request to get one Author by Id: 1
+2019-01-18 13:07:17,687 DEBUG [http-nio-8080-exec-8] SQL: select author0_.id as id1_0_, author0_.first_name as first_na2_0_, author0_.last_name as last_nam3_0_, author0_.nationality as national4_0_ from author_example_table author0_ where author0_.id=?
+2019-01-18 13:07:17,703 DEBUG [http-nio-8080-exec-8] LoggingAspect: Exit: com.greenfurniture.onlineorder.web.rest.AuthorRestController.getOneAuthorById() with result = <200 OK,Author [id=1, firstName=JIGAR, lastName=DALWADI, nationality=United States],{}>
+2019-01-18 13:07:19,968 DEBUG [http-nio-8080-exec-3] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /api/rest/authors
+2019-01-18 13:07:19,969 DEBUG [http-nio-8080-exec-3] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /api/rest/authors
+2019-01-18 13:07:19,973 DEBUG [http-nio-8080-exec-3] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/api/rest/authors]
+2019-01-18 13:07:19,974 DEBUG [http-nio-8080-exec-3] LoggingAspect: Enter: com.greenfurniture.onlineorder.web.rest.AuthorRestController.getAllAuthors() with argument[s] = []
+2019-01-18 13:07:19,984 DEBUG [http-nio-8080-exec-3] AuthorRestController: REST request to get all Authors
+2019-01-18 13:07:19,991 DEBUG [http-nio-8080-exec-3] SQL: select author0_.id as id1_0_, author0_.first_name as first_na2_0_, author0_.last_name as last_nam3_0_, author0_.nationality as national4_0_ from author_example_table author0_
+2019-01-18 13:07:20,011 DEBUG [http-nio-8080-exec-3] LoggingAspect: Exit: com.greenfurniture.onlineorder.web.rest.AuthorRestController.getAllAuthors() with result = <200 OK,[Author [id=1, firstName=JIGAR, lastName=DALWADI, nationality=United States], Author [id=2, firstName=John, lastName=Doe, nationality=USA]],{}>
+2019-01-18 13:07:21,509 DEBUG [http-nio-8080-exec-2] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /api/rest/authors/2
+2019-01-18 13:07:21,510 DEBUG [http-nio-8080-exec-2] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /api/rest/authors/2
+2019-01-18 13:07:21,514 DEBUG [http-nio-8080-exec-2] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/api/rest/authors/2]
+2019-01-18 13:07:21,528 DEBUG [http-nio-8080-exec-2] LoggingAspect: Enter: com.greenfurniture.onlineorder.web.rest.AuthorRestController.getOneAuthorById() with argument[s] = [2]
+2019-01-18 13:07:21,530 DEBUG [http-nio-8080-exec-2] AuthorRestController: REST request to get one Author by Id: 2
+2019-01-18 13:07:21,546 DEBUG [http-nio-8080-exec-2] SQL: select author0_.id as id1_0_, author0_.first_name as first_na2_0_, author0_.last_name as last_nam3_0_, author0_.nationality as national4_0_ from author_example_table author0_ where author0_.id=?
+2019-01-18 13:07:21,560 DEBUG [http-nio-8080-exec-2] LoggingAspect: Exit: com.greenfurniture.onlineorder.web.rest.AuthorRestController.getOneAuthorById() with result = <200 OK,Author [id=2, firstName=John, lastName=Doe, nationality=USA],{}>
+2019-01-18 13:07:22,930 DEBUG [http-nio-8080-exec-10] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /api/rest/authors
+2019-01-18 13:07:22,930 DEBUG [http-nio-8080-exec-10] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /api/rest/authors
+2019-01-18 13:07:22,936 DEBUG [http-nio-8080-exec-10] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/api/rest/authors]
+2019-01-18 13:07:22,945 DEBUG [http-nio-8080-exec-10] LoggingAspect: Enter: com.greenfurniture.onlineorder.web.rest.AuthorRestController.getAllAuthors() with argument[s] = []
+2019-01-18 13:07:22,953 DEBUG [http-nio-8080-exec-10] AuthorRestController: REST request to get all Authors
+2019-01-18 13:07:22,968 DEBUG [http-nio-8080-exec-10] SQL: select author0_.id as id1_0_, author0_.first_name as first_na2_0_, author0_.last_name as last_nam3_0_, author0_.nationality as national4_0_ from author_example_table author0_
+2019-01-18 13:07:22,980 DEBUG [http-nio-8080-exec-10] LoggingAspect: Exit: com.greenfurniture.onlineorder.web.rest.AuthorRestController.getAllAuthors() with result = <200 OK,[Author [id=1, firstName=JIGAR, lastName=DALWADI, nationality=United States], Author [id=2, firstName=John, lastName=Doe, nationality=USA]],{}>
+2019-01-18 13:08:23,497 DEBUG [http-nio-8080-exec-4] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /api/rest/authors/1
+2019-01-18 13:08:23,497 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /html-js/author/author-delete-dialog.html
+2019-01-18 13:08:23,497 DEBUG [http-nio-8080-exec-4] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /api/rest/authors/1
+2019-01-18 13:08:23,503 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /html-js/author/author-delete-dialog.html
+2019-01-18 13:08:23,507 DEBUG [http-nio-8080-exec-4] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/api/rest/authors/1]
+2019-01-18 13:08:23,508 DEBUG [http-nio-8080-exec-9] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/html-js/author/author-delete-dialog.html]
+2019-01-18 13:08:23,510 DEBUG [http-nio-8080-exec-4] LoggingAspect: Enter: com.greenfurniture.onlineorder.web.rest.AuthorRestController.getOneAuthorById() with argument[s] = [1]
+2019-01-18 13:08:23,513 DEBUG [http-nio-8080-exec-4] AuthorRestController: REST request to get one Author by Id: 1
+2019-01-18 13:08:23,515 DEBUG [http-nio-8080-exec-4] SQL: select author0_.id as id1_0_, author0_.first_name as first_na2_0_, author0_.last_name as last_nam3_0_, author0_.nationality as national4_0_ from author_example_table author0_ where author0_.id=?
+2019-01-18 13:08:23,538 DEBUG [http-nio-8080-exec-4] LoggingAspect: Exit: com.greenfurniture.onlineorder.web.rest.AuthorRestController.getOneAuthorById() with result = <200 OK,Author [id=1, firstName=JIGAR, lastName=DALWADI, nationality=United States],{}>
+2019-01-18 13:08:25,223 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /api/rest/authors/1
+2019-01-18 13:08:25,225 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /api/rest/authors/1
+2019-01-18 13:08:25,226 DEBUG [http-nio-8080-exec-5] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/api/rest/authors/1]
+2019-01-18 13:08:25,235 DEBUG [http-nio-8080-exec-5] LoggingAspect: Enter: com.greenfurniture.onlineorder.web.rest.AuthorRestController.deleteAuthor() with argument[s] = [1]
+2019-01-18 13:08:25,237 DEBUG [http-nio-8080-exec-5] AuthorRestController: REST request to delete Authors with ID : 1
+2019-01-18 13:08:25,240 DEBUG [http-nio-8080-exec-5] SQL: select author0_.id as id1_0_0_, author0_.first_name as first_na2_0_0_, author0_.last_name as last_nam3_0_0_, author0_.nationality as national4_0_0_ from author_example_table author0_ where author0_.id=?
+2019-01-18 13:08:25,286 DEBUG [http-nio-8080-exec-5] SQL: delete from author_example_table where id=?
+2019-01-18 13:08:25,324 DEBUG [http-nio-8080-exec-5] LoggingAspect: Exit: com.greenfurniture.onlineorder.web.rest.AuthorRestController.deleteAuthor() with result = <200 OK,{}>
+2019-01-18 13:08:25,346 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: Looking up handler method for path /api/rest/authors
+2019-01-18 13:08:25,346 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: looking up handler for path: /api/rest/authors
+2019-01-18 13:08:25,359 DEBUG [http-nio-8080-exec-7] PropertySourcedRequestMappingHandlerMapping: Did not find handler method for [/api/rest/authors]
+2019-01-18 13:08:25,369 DEBUG [http-nio-8080-exec-7] LoggingAspect: Enter: com.greenfurniture.onlineorder.web.rest.AuthorRestController.getAllAuthors() with argument[s] = []
+2019-01-18 13:08:25,382 DEBUG [http-nio-8080-exec-7] AuthorRestController: REST request to get all Authors
+2019-01-18 13:08:25,392 DEBUG [http-nio-8080-exec-7] SQL: select author0_.id as id1_0_, author0_.first_name as first_na2_0_, author0_.last_name as last_nam3_0_, author0_.nationality as national4_0_ from author_example_table author0_
+2019-01-18 13:08:25,414 DEBUG [http-nio-8080-exec-7] LoggingAspect: Exit: com.greenfurniture.onlineorder.web.rest.AuthorRestController.getAllAuthors() with result = <200 OK,[Author [id=2, firstName=John, lastName=Doe, nationality=USA]],{}>
+2019-01-18 16:52:09,216 WARN  [HikariPool-1 housekeeper] HikariPool: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m35s89ms112µs319ns).

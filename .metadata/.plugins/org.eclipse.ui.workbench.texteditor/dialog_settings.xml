@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="clone" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="true" key="wholeword"/>
+		<list key="findhistory">
+			<item value="clone"/>
+			<item value="depth"/>
+			<item value="null"/>
+			<item value="nul"/>
+			<item value="//&#x09;public void doPost(HttpServletRequest req, HttpServletResponse res) throws IOException {"/>
+			<item value="link"/>
+			<item value="Anytime1"/>
+			<item value="AStarAlgorithm1"/>
+			<item value="h_n"/>
+			<item value="f_n"/>
+			<item value="g_n"/>
+			<item value="getChildren"/>
+		</list>
+		<list key="replacehistory">
+			<item value="next"/>
+			<item value="Anytime"/>
+			<item value="AnytimeAlgorithm"/>
+			<item value="heuristic_cost"/>
+			<item value="final_cost"/>
+			<item value="cost_path_gn"/>
+			<item value="getChild"/>
+			<item value="Eight"/>
+			<item value="Axay"/>
+			<item value="AStarAlgorithm1"/>
+			<item value="Anytime1"/>
+			<item value="float"/>
+			<item value="Node1"/>
+			<item value="b"/>
+			<item value="a"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="336" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="454" key="DIALOG_HEIGHT"/>
+		<item value="1251" key="DIALOG_X_ORIGIN"/>
+		<item value="159" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

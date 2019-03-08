@@ -1,0 +1,253 @@
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.LinkedList;
+import java.util.PriorityQueue;
+import java.util.Stack;
+
+public class AStarAlgorithm1 {
+	public static void main(String args[]){
+		
+		final long startTime = System.nanoTime();
+		
+		Node1[] states = new Node1[4];
+		Node1 goalNodeFound = new Node1();
+		goalNodeFound = null;
+		Stack stack = new Stack();
+		Node1 current = new Node1();
+		LinkedList<ArrayList<?>> visited = new LinkedList<ArrayList<?>>();
+		int count = 0;
+	
+		//Creating start Node1
+		Node1 start = new Node1();
+		ArrayList<Integer> startState = new ArrayList<>();
+		
+		startState.add(3);
+		startState.add(2);
+		startState.add(0);
+		startState.add(6);
+		startState.add(1);
+		startState.add(5);
+		startState.add(7);
+		startState.add(4);
+		startState.add(8);
+		
+		start.state = startState;
+		start.parent = null;
+		start.move = null;
+		start.priority = 0;
+		start.distance = -1;
+				
+		//Creating goal Node1
+		Node1 goal = new Node1();
+		ArrayList<Integer> goalState = new ArrayList<>();
+		
+		goalState.add(0);
+		goalState.add(1);
+		goalState.add(2);
+		goalState.add(3);
+		goalState.add(4);
+		goalState.add(5);
+		goalState.add(6);
+		goalState.add(7);
+		goalState.add(8);
+		
+		
+		//Creating goal Node1
+		goal.state = goalState;
+		goal.parent = null;
+		goal.distance = -1;
+		goal.move = null;
+		
+		Comparator<Node1> comparator = new NodeCompare1();
+		PriorityQueue<Node1> pQ = new PriorityQueue<Node1>(100,comparator);
+		pQ.add(start);
+		visited.add(start.state);
+		
+		while(!pQ.isEmpty()){
+			count++;
+			current = pQ.remove();
+			states = findStates(current);
+			
+			for(int i = 0; i<=3; i++){
+				if(states[i] != null){
+						if (states[i].state.equals(goal.state)){
+							goalNodeFound = states[i];
+							break;
+						}
+						else{
+							if(!visited.contains(states[i].state)){
+							states[i].distance = current.distance + 1;	
+							visited.add(states[i].state);
+							states[i].priority = costFunction(states[i],goal);
+							pQ.add(states[i]);
+							}
+						}
+				} 
+			}
+			if(goalNodeFound != null)
+				break;
+			
+		}
+		
+		while (goalNodeFound.parent != null){
+			if(goalNodeFound.move != null){
+				stack.push(goalNodeFound.move);
+			}
+			goalNodeFound = goalNodeFound.parent;
+		}
+		
+		while(!stack.isEmpty()){
+			System.out.println(stack.pop());
+		}
+		
+		System.out.println(count + " Nodes expanded.");
+		final long duration = System.nanoTime() - startTime;
+		System.out.println(duration/1000000000.0 + " s");
+		
+	}
+
+	private static int costFunction(Node1 Node1, Node1 goal) {
+		// TODO Auto-generated method stub
+		
+		int priority;
+		int count = 0;
+		
+		//Heuristic Function Calculation
+		
+		for(int i=0; i<9; i++){
+			if(Node1.state.get(i) != goal.state.get(i)){
+				count++;
+			}
+		}
+		
+		priority = Node1.distance + count; 
+		return priority;
+	}
+	
+	private static int costFunctionLength(Node1 Node1, Node1 goal) {
+		// TODO Auto-generated method stub
+		
+		int priority;
+		int count = 0;
+		int index;
+		//Heuristic Function Calculation
+		
+		for(int i=0; i<9; i++){
+		index =	goal.state.indexOf(Node1.state.get(i));
+		count = count + Math.abs(index - i);
+		}
+		
+		priority = Node1.distance + count; 
+		return priority;
+	}
+
+
+	private static Node1[] findStates(Node1 state) {
+		// TODO Auto-generated method stub
+		Node1 state1,state2,state3,state4;
+		
+		state1 = moveUP(state);
+		state2 = moveDOWN(state);
+		state3 = moveLEFT(state);
+		state4 = moveRIGHT(state);
+		
+		Node1[] states = {state1, state2, state3, state4};
+		
+		return states;
+	}
+	
+
+
+	private static Node1 moveRIGHT(Node1 Node1) {
+		// TODO Auto-generated method stub
+		int space = Node1.state.indexOf(0);
+		ArrayList<Integer> childState;
+		int temp;
+		Node1 childNode = new Node1();
+		
+		if (space != 2 && space != 5 && space != 8) {
+			childState = (ArrayList<Integer>) Node1.state.clone();
+			temp = childState.get(space+1);
+			childState.set(space+1,0);
+			childState.set(space,temp);			
+			childNode.state = childState;
+			childNode.parent = Node1;
+			childNode.distance = Node1.distance + 1;
+			childNode.move = "RIGHT";
+			return childNode;
+		}
+		else{
+			return null;
+		}
+	}
+
+	private static Node1 moveLEFT(Node1 Node1) {
+		// TODO Auto-generated method stub
+		int space = Node1.state.indexOf(0);
+		ArrayList<Integer> childState;
+		int temp;
+		Node1 childNode = new Node1();
+		
+		if (space != 0 && space != 3 && space != 6) {
+			childState = (ArrayList<Integer>) Node1.state.clone();
+			temp = childState.get(space-1);
+			childState.set(space-1,0);
+			childState.set(space,temp);			
+			childNode.state = childState;
+			childNode.parent = Node1;
+			childNode.distance = Node1.distance + 1;
+			childNode.move = "LEFT";
+			return childNode;
+		}
+		else{
+			return null;
+		}
+	}
+
+	private static Node1 moveDOWN(Node1 Node1) {
+		// TODO Auto-generated method stub
+		int space = Node1.state.indexOf(0);
+		ArrayList<Integer> childState;
+		int temp;
+		Node1 childNode = new Node1();
+		
+		if (space <= 5) {
+			childState = (ArrayList<Integer>) Node1.state.clone();
+			temp = childState.get(space+3);
+			childState.set(space+3,0);
+			childState.set(space,temp);			
+			childNode.state = childState;
+			childNode.parent = Node1;
+			childNode.distance = Node1.distance + 1;
+			childNode.move = "DOWN";
+			return childNode;
+		}
+		else{
+			return null;
+		}
+	}
+
+	private static Node1 moveUP(Node1 Node1) {
+		// TODO Auto-generated method stub
+		int space = Node1.state.indexOf(0);
+		ArrayList<Integer> childState;
+		int temp;
+		Node1 childNode = new Node1();
+		
+		if (space > 2) {
+			childState = (ArrayList<Integer>) Node1.state.clone();
+			temp = childState.get(space-3);
+			childState.set(space-3,0);
+			childState.set(space,temp);			
+			childNode.state = childState;
+			childNode.parent = Node1;
+			childNode.distance = Node1.distance + 1;
+			childNode.move = "UP";
+			return childNode;
+		}
+		else{
+			return null;
+		}
+	}
+	
+}

@@ -1,0 +1,37 @@
+import java.util.*;	
+//import java.util.HashSet;
+	//import java.util.LinkedList;
+	//import java.util.List;
+	//import java.util.Queue;
+	//import java.util.Set;
+
+	
+	public class BFS {
+
+		public state exec(state StartState) {
+			if (StartState.GoalTest()) {//Cannibal and Missionary are zero
+				return StartState;
+			}
+			Queue<state> top = new LinkedList<state>();	// FIFO queue
+			Set<state> searched = new HashSet<state>();//check the duplicate state and won't allow in the set
+			top.add(StartState);//this will add the top state
+			while (true) {
+				if (top.isEmpty()) {
+					return null;	// failure
+				}
+			
+				state state = top.poll(); //Returns:the head of this queue, or null if this queue is empty
+				searched.add(state); //Adds the specified element to this set if it is not already present 
+				List<state> successors = state.generateSuccessors();
+				for (state child : successors) {
+					if (!searched.contains(child) || !top.contains(child)) {
+						if (child.GoalTest()) {
+							return child;
+						}
+						top.add(child);
+					}
+				}
+			}
+		}
+	}
+

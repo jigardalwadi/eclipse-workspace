@@ -1,0 +1,35 @@
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.ArrayList;
+
+
+public class SortArrayListObject{
+  public static void main(String args[]){
+    Student s1  = new Student("jigar", "dalwadi");
+  
+    
+    
+        ArrayList<Student> studList = new ArrayList<Student>();
+        studList.add(s1);
+        studList.add(new Student("Yash", "Bhatt"));
+        studList.add(new Student("raj","vora"));
+        
+        System.out.println(studList);
+      // Collections.sort with an object comparision
+        //According to first name
+        
+        Collections.sort(studList,new Comparator<Student>(){
+        	public int compare(Student s1, Student s2) {
+        		return ((String)s1.getFirstName()).compareTo((String)(s2.getFirstName()));
+        	}
+        });
+        
+       /* Collections.sort(studList, new Comparator<Student>(){
+             public int compare(Student s1, Student s2) {
+               return s1.getFirstName().compareToIgnoreCase(s2.getFirstName());
+            }
+        });*/
+
+        System.out.println(studList);
+  }
+}

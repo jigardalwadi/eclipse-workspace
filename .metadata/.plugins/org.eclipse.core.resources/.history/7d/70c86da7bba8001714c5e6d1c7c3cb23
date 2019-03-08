@@ -1,0 +1,88 @@
+import java.io.*;
+import java.util.*;
+//import java.io.BufferedReader;
+//import java.io.IOException;
+//import java.io.InputStreamReader;
+//import java.util.ArrayList;
+//import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("This is a classic Missionaries, Boat and Cannibals Problem ");
+		System.out.println("Please select any one methord to resolve the problem");
+		System.out.println("\t 1. Breadth-first search");
+		System.out.println("\t 2. Depth-limited search");
+		System.out.println("\t 3. Iterative-Deepening-Search");
+		System.out.println("\nType your choice and press ENTER: ");
+
+		String OptStr = null;
+		try {
+			BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+			OptStr = in.readLine();
+		} catch (IOException error) {
+			System.out.println("\tInvalid option selected");
+			error.printStackTrace();
+		}
+
+		int opt = Integer.parseInt(OptStr);
+		state StartState = new state (3, 3, BoatPosition.LEFT, 0, 0);
+		switch(opt) {
+		case 1:
+			BFS(StartState);
+			break;
+		case 2:
+			DLS(StartState);
+			break;
+		case 3:
+			IDS(StartState);
+			break;
+		default:
+			System.out.println("Please select the valid option which is given in the list.");
+		}
+	}
+
+	private static void BFS(state StartState) {
+		BFS search = new BFS();
+		state outputsol = search.exec(StartState);
+		printSolution(outputsol);
+	}
+
+	private static void DLS(state StartState) {
+		DepthLimitedSearch search = new DepthLimitedSearch();
+		state outputsol = search.exec(StartState);
+		printSolution(outputsol);
+	}
+	
+	private static void IDS(state StartState) {
+		IterativeDeepeningSearch search = new IterativeDeepeningSearch();
+		state outputsol = search.exec(StartState);
+		printSolution(outputsol);
+	}
+
+	private static void printSolution(state outputsol) {
+		if (null == outputsol) {
+			System.out.print("\nNo solution found.");
+		} else {
+			System.out.print("Position of the cannibal, boat and missionarty");
+			System.out.println("\nFinal Solution (canLeft,missLeft,boat,canRight,missRight): ");
+			List<state> route = new ArrayList<state>();
+			state state = outputsol;
+			while(null!=state) {
+				route.add(state);
+				state = state.getParentState();
+			}
+
+			int nodeExp = route.size() - 1;
+			for (int i = nodeExp; i >= 0; i--) {
+				state = route.get(i);
+				if (state.GoalTest()) {
+					System.out.print(state.toString());
+				} else {
+					System.out.print(state.toString() + " -> ");
+				}
+			}
+			System.out.println("\nNo Of Node Expended: " + nodeExp);
+		}
+	}
+}
